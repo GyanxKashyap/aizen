@@ -29,3 +29,15 @@ graphify-out/.graphify_*
 
 # ---- Portfolio-OS spec: belongs to the gyan-os project, not Aizen ----
 GYAN_OS_SPEC.md
+
+# ---- Editor / dev-server config ----
+.claude/
+
+# ---- Raw bAbI download shards: superseded by data/babi_train.jsonl ----
+data/babi_qa*.parquet
+
+# ---- Generator render outputs: already folded into the aizen_phase*_train.txt
+#      pools, and the sibling .json keeps the per-item category labels ----
+data/phase3b_extra.txt
+data/phase6_extra.txt
+data/phase7_extra.txt

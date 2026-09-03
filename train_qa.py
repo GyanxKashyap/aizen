@@ -34,7 +34,7 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 
 CKPT_PATH = "checkpoint_aizen.pt"
 FINAL_PATH = "aizen.pt"
-METRICS_PATH = "metrics_aizen.csv"
+METRICS_PATH = "results/metrics_aizen.csv"
 
 # ------------------------------------------------------------------ data ---
 with open(DATA_PATH, "r", encoding="utf-8") as f:

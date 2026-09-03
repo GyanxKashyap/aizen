@@ -2,7 +2,7 @@
 Train Aizen on tiny-shakespeare, character-level, on CPU.
 
 Run:  python3 train.py
-Logs train/val loss to metrics.csv and prints sample generations
+Logs train/val loss to results/metrics.csv and prints sample generations
 periodically so you can literally watch the model learn to spell,
 then form words, then form (bad) Shakespeare.
 """
@@ -91,7 +91,7 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=LR)
 # model + optimizer + iteration count and resume from where we left off.
 CKPT_PATH = "checkpoint.pt"
 start_iter = 0
-metrics_exists = os.path.exists("metrics.csv")
+metrics_exists = os.path.exists("results/metrics.csv")
 if os.path.exists(CKPT_PATH):
     ckpt = torch.load(CKPT_PATH, map_location=DEVICE)
     model.load_state_dict(ckpt["model"])
@@ -103,7 +103,7 @@ CHUNK_ITERS = int(os.environ.get("CHUNK_ITERS", 250))  # how many steps this pro
 end_iter = min(start_iter + CHUNK_ITERS, MAX_ITERS)
 
 # ---------------------------------------------------------------- train ---
-metrics_file = open("metrics.csv", "a" if metrics_exists else "w", newline="")
+metrics_file = open("results/metrics.csv", "a" if metrics_exists else "w", newline="")
 writer = csv.writer(metrics_file)
 if not metrics_exists:
     writer.writerow(["iter", "train_loss", "val_loss", "elapsed_sec"])
@@ -141,7 +141,7 @@ print(f"checkpoint saved at iter {end_iter}")
 
 if end_iter >= MAX_ITERS:
     torch.save(model.state_dict(), "tinygpt.pt")
-    print("training complete. weights saved to tinygpt.pt, metrics logged to metrics.csv")
+    print("training complete. weights saved to tinygpt.pt, metrics logged to results/metrics.csv")
     print("\nFinal sample:")
     context = torch.zeros((1, 1), dtype=torch.long, device=DEVICE)
     print(decode(model.generate(context, max_new_tokens=500, temperature=0.8, top_k=40)[0].tolist()))
