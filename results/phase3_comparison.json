@@ -1,0 +1,119 @@
+{
+  "v0_checkpoint": "aizen.pt",
+  "v1_checkpoint": "aizen_phase3.pt",
+  "overall": {
+    "v0": 17.0,
+    "v1": 26.5,
+    "delta_pp": 9.5
+  },
+  "categories": {
+    "arithmetic": {
+      "v0": 78.0,
+      "v1": 72.0,
+      "delta_pp": -6.0
+    },
+    "multi_step_arithmetic": {
+      "v0": 2.0,
+      "v1": 56.0,
+      "delta_pp": 54.0
+    },
+    "logic": {
+      "v0": 0.0,
+      "v1": 0.0,
+      "delta_pp": 0.0
+    },
+    "patterns": {
+      "v0": 0.0,
+      "v1": 14.0,
+      "delta_pp": 14.0
+    },
+    "general_knowledge": {
+      "v0": 48.0,
+      "v1": 52.0,
+      "delta_pp": 4.0
+    },
+    "instruction_following": {
+      "v0": 8.0,
+      "v1": 14.0,
+      "delta_pp": 6.0
+    },
+    "reading_comprehension": {
+      "v0": 0.0,
+      "v1": 4.0,
+      "delta_pp": 4.0
+    },
+    "coding": {
+      "v0": 0.0,
+      "v1": 0.0,
+      "delta_pp": 0.0
+    }
+  },
+  "flips": {
+    "fixed_in_v1": [
+      "arithmetic_005",
+      "arithmetic_032",
+      "arithmetic_044",
+      "multi_step_arithmetic_002",
+      "multi_step_arithmetic_003",
+      "multi_step_arithmetic_006",
+      "multi_step_arithmetic_009",
+      "multi_step_arithmetic_012",
+      "multi_step_arithmetic_015",
+      "multi_step_arithmetic_017",
+      "multi_step_arithmetic_018",
+      "multi_step_arithmetic_020",
+      "multi_step_arithmetic_021",
+      "multi_step_arithmetic_023",
+      "multi_step_arithmetic_024",
+      "multi_step_arithmetic_026",
+      "multi_step_arithmetic_027",
+      "multi_step_arithmetic_029",
+      "multi_step_arithmetic_030",
+      "multi_step_arithmetic_032",
+      "multi_step_arithmetic_033",
+      "multi_step_arithmetic_035",
+      "multi_step_arithmetic_036",
+      "multi_step_arithmetic_038",
+      "multi_step_arithmetic_039",
+      "multi_step_arithmetic_041",
+      "multi_step_arithmetic_042",
+      "multi_step_arithmetic_044",
+      "multi_step_arithmetic_045",
+      "multi_step_arithmetic_048",
+      "multi_step_arithmetic_050",
+      "patterns_001",
+      "patterns_005",
+      "patterns_022",
+      "patterns_029",
+      "patterns_034",
+      "patterns_035",
+      "patterns_048",
+      "general_knowledge_005",
+      "general_knowledge_031",
+      "general_knowledge_048",
+      "instruction_following_002",
+      "instruction_following_006",
+      "instruction_following_009",
+      "instruction_following_013",
+      "instruction_following_017",
+      "instruction_following_029",
+      "reading_comprehension_044",
+      "reading_comprehension_045"
+    ],
+    "broken_in_v1": [
+      "arithmetic_012",
+      "arithmetic_018",
+      "arithmetic_027",
+      "arithmetic_036",
+      "arithmetic_042",
+      "arithmetic_048",
+      "multi_step_arithmetic_047",
+      "general_knowledge_018",
+      "instruction_following_022",
+      "instruction_following_030",
+      "instruction_following_037"
+    ],
+    "n_fixed": 49,
+    "n_broken": 11
+  }
+}

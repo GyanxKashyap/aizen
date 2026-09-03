@@ -1,0 +1,4052 @@
+[
+  {
+    "id": "arithmetic_001",
+    "category": "arithmetic",
+    "question": "What is 63 + 26?",
+    "expected_answer": "89",
+    "acceptable_answers": [
+      "89"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_002",
+    "category": "arithmetic",
+    "question": "53-15",
+    "expected_answer": "38",
+    "acceptable_answers": [
+      "38"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_003",
+    "category": "arithmetic",
+    "question": "How much is 95 + 90?",
+    "expected_answer": "185",
+    "acceptable_answers": [
+      "185"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_004",
+    "category": "arithmetic",
+    "question": "What is 76 - 43?",
+    "expected_answer": "33",
+    "acceptable_answers": [
+      "33"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_005",
+    "category": "arithmetic",
+    "question": "44+66",
+    "expected_answer": "110",
+    "acceptable_answers": [
+      "110"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_006",
+    "category": "arithmetic",
+    "question": "How much is 71 - 32?",
+    "expected_answer": "39",
+    "acceptable_answers": [
+      "39"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_007",
+    "category": "arithmetic",
+    "question": "What is 31 + 88?",
+    "expected_answer": "119",
+    "acceptable_answers": [
+      "119"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_008",
+    "category": "arithmetic",
+    "question": "71-35",
+    "expected_answer": "36",
+    "acceptable_answers": [
+      "36"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_009",
+    "category": "arithmetic",
+    "question": "How much is 20 + 22?",
+    "expected_answer": "42",
+    "acceptable_answers": [
+      "42"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_010",
+    "category": "arithmetic",
+    "question": "What is 58 - 55?",
+    "expected_answer": "3",
+    "acceptable_answers": [
+      "3"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_011",
+    "category": "arithmetic",
+    "question": "73+38",
+    "expected_answer": "111",
+    "acceptable_answers": [
+      "111"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_012",
+    "category": "arithmetic",
+    "question": "How much is 67 - 53?",
+    "expected_answer": "14",
+    "acceptable_answers": [
+      "14"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_013",
+    "category": "arithmetic",
+    "question": "What is 79 + 63?",
+    "expected_answer": "142",
+    "acceptable_answers": [
+      "142"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_014",
+    "category": "arithmetic",
+    "question": "58-10",
+    "expected_answer": "48",
+    "acceptable_answers": [
+      "48"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_015",
+    "category": "arithmetic",
+    "question": "How much is 78 + 37?",
+    "expected_answer": "115",
+    "acceptable_answers": [
+      "115"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_016",
+    "category": "arithmetic",
+    "question": "What is 55 - 31?",
+    "expected_answer": "24",
+    "acceptable_answers": [
+      "24"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_017",
+    "category": "arithmetic",
+    "question": "74+58",
+    "expected_answer": "132",
+    "acceptable_answers": [
+      "132"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_018",
+    "category": "arithmetic",
+    "question": "How much is 47 - 14?",
+    "expected_answer": "33",
+    "acceptable_answers": [
+      "33"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_019",
+    "category": "arithmetic",
+    "question": "What is 98 + 29?",
+    "expected_answer": "127",
+    "acceptable_answers": [
+      "127"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_020",
+    "category": "arithmetic",
+    "question": "33-6",
+    "expected_answer": "27",
+    "acceptable_answers": [
+      "27"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_021",
+    "category": "arithmetic",
+    "question": "How much is 26 + 36?",
+    "expected_answer": "62",
+    "acceptable_answers": [
+      "62"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_022",
+    "category": "arithmetic",
+    "question": "What is 44 - 31?",
+    "expected_answer": "13",
+    "acceptable_answers": [
+      "13"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_023",
+    "category": "arithmetic",
+    "question": "98+55",
+    "expected_answer": "153",
+    "acceptable_answers": [
+      "153"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_024",
+    "category": "arithmetic",
+    "question": "How much is 29 - 9?",
+    "expected_answer": "20",
+    "acceptable_answers": [
+      "20"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_025",
+    "category": "arithmetic",
+    "question": "What is 83 + 57?",
+    "expected_answer": "140",
+    "acceptable_answers": [
+      "140"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_026",
+    "category": "arithmetic",
+    "question": "71-12",
+    "expected_answer": "59",
+    "acceptable_answers": [
+      "59"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_027",
+    "category": "arithmetic",
+    "question": "How much is 61 + 17?",
+    "expected_answer": "78",
+    "acceptable_answers": [
+      "78"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_028",
+    "category": "arithmetic",
+    "question": "What is 49 - 49?",
+    "expected_answer": "0",
+    "acceptable_answers": [
+      "0"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_029",
+    "category": "arithmetic",
+    "question": "26+12",
+    "expected_answer": "38",
+    "acceptable_answers": [
+      "38"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_030",
+    "category": "arithmetic",
+    "question": "How much is 26 - 18?",
+    "expected_answer": "8",
+    "acceptable_answers": [
+      "8"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_031",
+    "category": "arithmetic",
+    "question": "What is 51 + 65?",
+    "expected_answer": "116",
+    "acceptable_answers": [
+      "116"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_032",
+    "category": "arithmetic",
+    "question": "93-13",
+    "expected_answer": "80",
+    "acceptable_answers": [
+      "80"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_033",
+    "category": "arithmetic",
+    "question": "How much is 41 + 38?",
+    "expected_answer": "79",
+    "acceptable_answers": [
+      "79"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_034",
+    "category": "arithmetic",
+    "question": "What is 83 - 56?",
+    "expected_answer": "27",
+    "acceptable_answers": [
+      "27"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_035",
+    "category": "arithmetic",
+    "question": "15+29",
+    "expected_answer": "44",
+    "acceptable_answers": [
+      "44"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_036",
+    "category": "arithmetic",
+    "question": "How much is 44 - 26?",
+    "expected_answer": "18",
+    "acceptable_answers": [
+      "18"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_037",
+    "category": "arithmetic",
+    "question": "What is 65 + 49?",
+    "expected_answer": "114",
+    "acceptable_answers": [
+      "114"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_038",
+    "category": "arithmetic",
+    "question": "53-17",
+    "expected_answer": "36",
+    "acceptable_answers": [
+      "36"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_039",
+    "category": "arithmetic",
+    "question": "How much is 21 + 91?",
+    "expected_answer": "112",
+    "acceptable_answers": [
+      "112"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_040",
+    "category": "arithmetic",
+    "question": "What is 96 - 34?",
+    "expected_answer": "62",
+    "acceptable_answers": [
+      "62"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_041",
+    "category": "arithmetic",
+    "question": "82+48",
+    "expected_answer": "130",
+    "acceptable_answers": [
+      "130"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_042",
+    "category": "arithmetic",
+    "question": "How much is 58 - 15?",
+    "expected_answer": "43",
+    "acceptable_answers": [
+      "43"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_043",
+    "category": "arithmetic",
+    "question": "What is 32 + 44?",
+    "expected_answer": "76",
+    "acceptable_answers": [
+      "76"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_044",
+    "category": "arithmetic",
+    "question": "25-22",
+    "expected_answer": "3",
+    "acceptable_answers": [
+      "3"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_045",
+    "category": "arithmetic",
+    "question": "How much is 44 + 77?",
+    "expected_answer": "121",
+    "acceptable_answers": [
+      "121"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_046",
+    "category": "arithmetic",
+    "question": "What is 40 - 28?",
+    "expected_answer": "12",
+    "acceptable_answers": [
+      "12"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_047",
+    "category": "arithmetic",
+    "question": "69+38",
+    "expected_answer": "107",
+    "acceptable_answers": [
+      "107"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_048",
+    "category": "arithmetic",
+    "question": "How much is 81 - 58?",
+    "expected_answer": "23",
+    "acceptable_answers": [
+      "23"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_049",
+    "category": "arithmetic",
+    "question": "What is 45 + 60?",
+    "expected_answer": "105",
+    "acceptable_answers": [
+      "105"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "arithmetic_050",
+    "category": "arithmetic",
+    "question": "54-54",
+    "expected_answer": "0",
+    "acceptable_answers": [
+      "0"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_001",
+    "category": "multi_step_arithmetic",
+    "question": "What is 12 + 18 + 29?",
+    "expected_answer": "59",
+    "acceptable_answers": [
+      "59"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_002",
+    "category": "multi_step_arithmetic",
+    "question": "What is 11 + 39 - 15?",
+    "expected_answer": "35",
+    "acceptable_answers": [
+      "35"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_003",
+    "category": "multi_step_arithmetic",
+    "question": "What is 7 * 7 + 9?",
+    "expected_answer": "58",
+    "acceptable_answers": [
+      "58"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_004",
+    "category": "multi_step_arithmetic",
+    "question": "What is 21 + 14 + 26?",
+    "expected_answer": "61",
+    "acceptable_answers": [
+      "61"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_005",
+    "category": "multi_step_arithmetic",
+    "question": "What is 24 + 39 - 53?",
+    "expected_answer": "10",
+    "acceptable_answers": [
+      "10"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_006",
+    "category": "multi_step_arithmetic",
+    "question": "What is 3 * 4 + 10?",
+    "expected_answer": "22",
+    "acceptable_answers": [
+      "22"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_007",
+    "category": "multi_step_arithmetic",
+    "question": "What is 15 + 16 + 16?",
+    "expected_answer": "47",
+    "acceptable_answers": [
+      "47"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_008",
+    "category": "multi_step_arithmetic",
+    "question": "What is 30 + 37 - 59?",
+    "expected_answer": "8",
+    "acceptable_answers": [
+      "8"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_009",
+    "category": "multi_step_arithmetic",
+    "question": "What is 3 * 6 + 3?",
+    "expected_answer": "21",
+    "acceptable_answers": [
+      "21"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_010",
+    "category": "multi_step_arithmetic",
+    "question": "What is 21 + 28 + 6?",
+    "expected_answer": "55",
+    "acceptable_answers": [
+      "55"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_011",
+    "category": "multi_step_arithmetic",
+    "question": "What is 41 + 36 - 65?",
+    "expected_answer": "12",
+    "acceptable_answers": [
+      "12"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_012",
+    "category": "multi_step_arithmetic",
+    "question": "What is 6 * 2 + 12?",
+    "expected_answer": "24",
+    "acceptable_answers": [
+      "24"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_013",
+    "category": "multi_step_arithmetic",
+    "question": "What is 20 + 4 + 29?",
+    "expected_answer": "53",
+    "acceptable_answers": [
+      "53"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_014",
+    "category": "multi_step_arithmetic",
+    "question": "What is 18 + 33 - 51?",
+    "expected_answer": "0",
+    "acceptable_answers": [
+      "0"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_015",
+    "category": "multi_step_arithmetic",
+    "question": "What is 9 * 5 + 20?",
+    "expected_answer": "65",
+    "acceptable_answers": [
+      "65"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_016",
+    "category": "multi_step_arithmetic",
+    "question": "What is 15 + 9 + 29?",
+    "expected_answer": "53",
+    "acceptable_answers": [
+      "53"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_017",
+    "category": "multi_step_arithmetic",
+    "question": "What is 36 + 41 - 16?",
+    "expected_answer": "61",
+    "acceptable_answers": [
+      "61"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_018",
+    "category": "multi_step_arithmetic",
+    "question": "What is 3 * 6 + 1?",
+    "expected_answer": "19",
+    "acceptable_answers": [
+      "19"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_019",
+    "category": "multi_step_arithmetic",
+    "question": "What is 10 + 18 + 13?",
+    "expected_answer": "41",
+    "acceptable_answers": [
+      "41"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_020",
+    "category": "multi_step_arithmetic",
+    "question": "What is 36 + 27 - 46?",
+    "expected_answer": "17",
+    "acceptable_answers": [
+      "17"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_021",
+    "category": "multi_step_arithmetic",
+    "question": "What is 6 * 7 + 17?",
+    "expected_answer": "59",
+    "acceptable_answers": [
+      "59"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_022",
+    "category": "multi_step_arithmetic",
+    "question": "What is 16 + 27 + 7?",
+    "expected_answer": "50",
+    "acceptable_answers": [
+      "50"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_023",
+    "category": "multi_step_arithmetic",
+    "question": "What is 44 + 38 - 13?",
+    "expected_answer": "69",
+    "acceptable_answers": [
+      "69"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_024",
+    "category": "multi_step_arithmetic",
+    "question": "What is 2 * 8 + 1?",
+    "expected_answer": "17",
+    "acceptable_answers": [
+      "17"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_025",
+    "category": "multi_step_arithmetic",
+    "question": "What is 3 + 23 + 20?",
+    "expected_answer": "46",
+    "acceptable_answers": [
+      "46"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_026",
+    "category": "multi_step_arithmetic",
+    "question": "What is 12 + 41 - 46?",
+    "expected_answer": "7",
+    "acceptable_answers": [
+      "7"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_027",
+    "category": "multi_step_arithmetic",
+    "question": "What is 5 * 7 + 8?",
+    "expected_answer": "43",
+    "acceptable_answers": [
+      "43"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_028",
+    "category": "multi_step_arithmetic",
+    "question": "What is 6 + 26 + 14?",
+    "expected_answer": "46",
+    "acceptable_answers": [
+      "46"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_029",
+    "category": "multi_step_arithmetic",
+    "question": "What is 14 + 25 - 3?",
+    "expected_answer": "36",
+    "acceptable_answers": [
+      "36"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_030",
+    "category": "multi_step_arithmetic",
+    "question": "What is 4 * 7 + 14?",
+    "expected_answer": "42",
+    "acceptable_answers": [
+      "42"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_031",
+    "category": "multi_step_arithmetic",
+    "question": "What is 9 + 29 + 17?",
+    "expected_answer": "55",
+    "acceptable_answers": [
+      "55"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_032",
+    "category": "multi_step_arithmetic",
+    "question": "What is 30 + 42 - 11?",
+    "expected_answer": "61",
+    "acceptable_answers": [
+      "61"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_033",
+    "category": "multi_step_arithmetic",
+    "question": "What is 6 * 9 + 8?",
+    "expected_answer": "62",
+    "acceptable_answers": [
+      "62"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_034",
+    "category": "multi_step_arithmetic",
+    "question": "What is 17 + 14 + 2?",
+    "expected_answer": "33",
+    "acceptable_answers": [
+      "33"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_035",
+    "category": "multi_step_arithmetic",
+    "question": "What is 16 + 19 - 23?",
+    "expected_answer": "12",
+    "acceptable_answers": [
+      "12"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_036",
+    "category": "multi_step_arithmetic",
+    "question": "What is 7 * 6 + 9?",
+    "expected_answer": "51",
+    "acceptable_answers": [
+      "51"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_037",
+    "category": "multi_step_arithmetic",
+    "question": "What is 21 + 28 + 4?",
+    "expected_answer": "53",
+    "acceptable_answers": [
+      "53"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_038",
+    "category": "multi_step_arithmetic",
+    "question": "What is 12 + 33 - 12?",
+    "expected_answer": "33",
+    "acceptable_answers": [
+      "33"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_039",
+    "category": "multi_step_arithmetic",
+    "question": "What is 7 * 8 + 6?",
+    "expected_answer": "62",
+    "acceptable_answers": [
+      "62"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_040",
+    "category": "multi_step_arithmetic",
+    "question": "What is 11 + 25 + 1?",
+    "expected_answer": "37",
+    "acceptable_answers": [
+      "37"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_041",
+    "category": "multi_step_arithmetic",
+    "question": "What is 16 + 36 - 16?",
+    "expected_answer": "36",
+    "acceptable_answers": [
+      "36"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_042",
+    "category": "multi_step_arithmetic",
+    "question": "What is 5 * 9 + 9?",
+    "expected_answer": "54",
+    "acceptable_answers": [
+      "54"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_043",
+    "category": "multi_step_arithmetic",
+    "question": "What is 3 + 16 + 23?",
+    "expected_answer": "42",
+    "acceptable_answers": [
+      "42"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_044",
+    "category": "multi_step_arithmetic",
+    "question": "What is 13 + 19 - 5?",
+    "expected_answer": "27",
+    "acceptable_answers": [
+      "27"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_045",
+    "category": "multi_step_arithmetic",
+    "question": "What is 9 * 4 + 2?",
+    "expected_answer": "38",
+    "acceptable_answers": [
+      "38"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_046",
+    "category": "multi_step_arithmetic",
+    "question": "What is 27 + 19 + 14?",
+    "expected_answer": "60",
+    "acceptable_answers": [
+      "60"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_047",
+    "category": "multi_step_arithmetic",
+    "question": "What is 13 + 45 - 54?",
+    "expected_answer": "4",
+    "acceptable_answers": [
+      "4"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_048",
+    "category": "multi_step_arithmetic",
+    "question": "What is 8 * 3 + 1?",
+    "expected_answer": "25",
+    "acceptable_answers": [
+      "25"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_049",
+    "category": "multi_step_arithmetic",
+    "question": "What is 15 + 28 + 18?",
+    "expected_answer": "61",
+    "acceptable_answers": [
+      "61"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "multi_step_arithmetic_050",
+    "category": "multi_step_arithmetic",
+    "question": "What is 31 + 27 - 8?",
+    "expected_answer": "50",
+    "acceptable_answers": [
+      "50"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "logic_001",
+    "category": "logic",
+    "question": "If all cats are animals and Kiki is a cat, is Kiki an animal? Answer yes or no.",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_002",
+    "category": "logic",
+    "question": "If all birds can fly and Pipo is a bird, can Pipo fly? Answer yes or no.",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_003",
+    "category": "logic",
+    "question": "If no fish can walk and Bubbles is a fish, can Bubbles walk? Answer yes or no.",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_004",
+    "category": "logic",
+    "question": "Is every square also a rectangle? Answer yes or no.",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_005",
+    "category": "logic",
+    "question": "Can a circle have corners? Answer yes or no.",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_006",
+    "category": "logic",
+    "question": "If today is Monday, is tomorrow Wednesday? Answer yes or no.",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_007",
+    "category": "logic",
+    "question": "If today is Friday, is tomorrow Saturday? Answer yes or no.",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_008",
+    "category": "logic",
+    "question": "Is five bigger than nine? Answer yes or no.",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_009",
+    "category": "logic",
+    "question": "Is twelve bigger than seven? Answer yes or no.",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_010",
+    "category": "logic",
+    "question": "If it rains, the road gets wet. It rains. Is the road wet? Answer yes or no.",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "logic_011",
+    "category": "logic",
+    "question": "Mia runs faster than Dan. Who is slower?",
+    "expected_answer": "Dan",
+    "acceptable_answers": [
+      "Dan"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_012",
+    "category": "logic",
+    "question": "Ana has 27 coins. Dan has 72 coins. Who has more coins?",
+    "expected_answer": "Dan",
+    "acceptable_answers": [
+      "Dan"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_013",
+    "category": "logic",
+    "question": "Dan is taller than Leo. Who is shorter?",
+    "expected_answer": "Leo",
+    "acceptable_answers": [
+      "Leo"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_014",
+    "category": "logic",
+    "question": "Amy is older than Dan. Who is younger?",
+    "expected_answer": "Dan",
+    "acceptable_answers": [
+      "Dan"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_015",
+    "category": "logic",
+    "question": "Tom runs faster than Leo. Who is slower?",
+    "expected_answer": "Leo",
+    "acceptable_answers": [
+      "Leo"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_016",
+    "category": "logic",
+    "question": "Dan has 40 coins. Ana has 83 coins. Who has more coins?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_017",
+    "category": "logic",
+    "question": "Tom is taller than Mia. Who is shorter?",
+    "expected_answer": "Mia",
+    "acceptable_answers": [
+      "Mia"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_018",
+    "category": "logic",
+    "question": "Sam is older than Tom. Who is younger?",
+    "expected_answer": "Tom",
+    "acceptable_answers": [
+      "Tom"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_019",
+    "category": "logic",
+    "question": "Tom runs faster than Dan. Who is slower?",
+    "expected_answer": "Dan",
+    "acceptable_answers": [
+      "Dan"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_020",
+    "category": "logic",
+    "question": "Tom has 8 coins. Ana has 67 coins. Who has more coins?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_021",
+    "category": "logic",
+    "question": "Ben is taller than Tom. Who is shorter?",
+    "expected_answer": "Tom",
+    "acceptable_answers": [
+      "Tom"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_022",
+    "category": "logic",
+    "question": "Amy is older than Ben. Who is younger?",
+    "expected_answer": "Ben",
+    "acceptable_answers": [
+      "Ben"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_023",
+    "category": "logic",
+    "question": "Ana runs faster than Sam. Who is slower?",
+    "expected_answer": "Sam",
+    "acceptable_answers": [
+      "Sam"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_024",
+    "category": "logic",
+    "question": "Sam has 45 coins. Ben has 75 coins. Who has more coins?",
+    "expected_answer": "Ben",
+    "acceptable_answers": [
+      "Ben"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_025",
+    "category": "logic",
+    "question": "Leo is taller than Ben. Who is shorter?",
+    "expected_answer": "Ben",
+    "acceptable_answers": [
+      "Ben"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_026",
+    "category": "logic",
+    "question": "Tom is older than Mia. Who is younger?",
+    "expected_answer": "Mia",
+    "acceptable_answers": [
+      "Mia"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_027",
+    "category": "logic",
+    "question": "Ben runs faster than Ana. Who is slower?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_028",
+    "category": "logic",
+    "question": "Tom has 19 coins. Amy has 65 coins. Who has more coins?",
+    "expected_answer": "Amy",
+    "acceptable_answers": [
+      "Amy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_029",
+    "category": "logic",
+    "question": "Ana is taller than Mia. Who is shorter?",
+    "expected_answer": "Mia",
+    "acceptable_answers": [
+      "Mia"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_030",
+    "category": "logic",
+    "question": "Leo is older than Dan. Who is younger?",
+    "expected_answer": "Dan",
+    "acceptable_answers": [
+      "Dan"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_031",
+    "category": "logic",
+    "question": "Dan runs faster than Amy. Who is slower?",
+    "expected_answer": "Amy",
+    "acceptable_answers": [
+      "Amy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_032",
+    "category": "logic",
+    "question": "Leo has 15 coins. Mia has 59 coins. Who has more coins?",
+    "expected_answer": "Mia",
+    "acceptable_answers": [
+      "Mia"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_033",
+    "category": "logic",
+    "question": "Tom is taller than Ana. Who is shorter?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_034",
+    "category": "logic",
+    "question": "Tom is older than Sam. Who is younger?",
+    "expected_answer": "Sam",
+    "acceptable_answers": [
+      "Sam"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_035",
+    "category": "logic",
+    "question": "Mia runs faster than Ana. Who is slower?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_036",
+    "category": "logic",
+    "question": "Ana has 29 coins. Ben has 92 coins. Who has more coins?",
+    "expected_answer": "Ben",
+    "acceptable_answers": [
+      "Ben"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_037",
+    "category": "logic",
+    "question": "Mia is taller than Leo. Who is shorter?",
+    "expected_answer": "Leo",
+    "acceptable_answers": [
+      "Leo"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_038",
+    "category": "logic",
+    "question": "Dan is older than Amy. Who is younger?",
+    "expected_answer": "Amy",
+    "acceptable_answers": [
+      "Amy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_039",
+    "category": "logic",
+    "question": "Tom runs faster than Amy. Who is slower?",
+    "expected_answer": "Amy",
+    "acceptable_answers": [
+      "Amy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_040",
+    "category": "logic",
+    "question": "Ana has 41 coins. Dan has 81 coins. Who has more coins?",
+    "expected_answer": "Dan",
+    "acceptable_answers": [
+      "Dan"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_041",
+    "category": "logic",
+    "question": "Sam is taller than Ana. Who is shorter?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_042",
+    "category": "logic",
+    "question": "Ana is older than Dan. Who is younger?",
+    "expected_answer": "Dan",
+    "acceptable_answers": [
+      "Dan"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_043",
+    "category": "logic",
+    "question": "Dan runs faster than Leo. Who is slower?",
+    "expected_answer": "Leo",
+    "acceptable_answers": [
+      "Leo"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_044",
+    "category": "logic",
+    "question": "Tom has 30 coins. Ana has 70 coins. Who has more coins?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_045",
+    "category": "logic",
+    "question": "Amy is taller than Ben. Who is shorter?",
+    "expected_answer": "Ben",
+    "acceptable_answers": [
+      "Ben"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_046",
+    "category": "logic",
+    "question": "Tom is older than Ana. Who is younger?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_047",
+    "category": "logic",
+    "question": "Sam runs faster than Amy. Who is slower?",
+    "expected_answer": "Amy",
+    "acceptable_answers": [
+      "Amy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_048",
+    "category": "logic",
+    "question": "Dan has 36 coins. Amy has 54 coins. Who has more coins?",
+    "expected_answer": "Amy",
+    "acceptable_answers": [
+      "Amy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_049",
+    "category": "logic",
+    "question": "Sam is taller than Tom. Who is shorter?",
+    "expected_answer": "Tom",
+    "acceptable_answers": [
+      "Tom"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "logic_050",
+    "category": "logic",
+    "question": "Ana is older than Amy. Who is younger?",
+    "expected_answer": "Amy",
+    "acceptable_answers": [
+      "Amy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_001",
+    "category": "patterns",
+    "question": "What number comes after this: 19, 22, 25, 28?",
+    "expected_answer": "31",
+    "acceptable_answers": [
+      "31"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_002",
+    "category": "patterns",
+    "question": "Continue the pattern: 6, 18, 54, 162, ?",
+    "expected_answer": "486",
+    "acceptable_answers": [
+      "486"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_003",
+    "category": "patterns",
+    "question": "What letter comes after this: b, c, d, e?",
+    "expected_answer": "f",
+    "acceptable_answers": [
+      "f"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_004",
+    "category": "patterns",
+    "question": "Continue: 56, 54, 52, 50, ?",
+    "expected_answer": "48",
+    "acceptable_answers": [
+      "48"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_005",
+    "category": "patterns",
+    "question": "What number comes after this: 6, 9, 12, 15?",
+    "expected_answer": "18",
+    "acceptable_answers": [
+      "18"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_006",
+    "category": "patterns",
+    "question": "Continue the pattern: 3, 9, 27, 81, ?",
+    "expected_answer": "243",
+    "acceptable_answers": [
+      "243"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_007",
+    "category": "patterns",
+    "question": "What letter comes after this: k, l, m, n?",
+    "expected_answer": "o",
+    "acceptable_answers": [
+      "o"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_008",
+    "category": "patterns",
+    "question": "Continue: 55, 50, 45, 40, ?",
+    "expected_answer": "35",
+    "acceptable_answers": [
+      "35"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_009",
+    "category": "patterns",
+    "question": "What number comes after this: 11, 16, 21, 26?",
+    "expected_answer": "31",
+    "acceptable_answers": [
+      "31"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_010",
+    "category": "patterns",
+    "question": "What letter comes after this: n, o, p, q?",
+    "expected_answer": "r",
+    "acceptable_answers": [
+      "r"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_011",
+    "category": "patterns",
+    "question": "Continue: 78, 75, 72, 69, ?",
+    "expected_answer": "66",
+    "acceptable_answers": [
+      "66"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_012",
+    "category": "patterns",
+    "question": "What number comes after this: 10, 12, 14, 16?",
+    "expected_answer": "18",
+    "acceptable_answers": [
+      "18"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_013",
+    "category": "patterns",
+    "question": "Continue the pattern: 1, 3, 9, 27, ?",
+    "expected_answer": "81",
+    "acceptable_answers": [
+      "81"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_014",
+    "category": "patterns",
+    "question": "What letter comes after this: j, k, l, m?",
+    "expected_answer": "n",
+    "acceptable_answers": [
+      "n"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_015",
+    "category": "patterns",
+    "question": "Continue: 92, 88, 84, 80, ?",
+    "expected_answer": "76",
+    "acceptable_answers": [
+      "76"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_016",
+    "category": "patterns",
+    "question": "What number comes after this: 18, 24, 30, 36?",
+    "expected_answer": "42",
+    "acceptable_answers": [
+      "42"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_017",
+    "category": "patterns",
+    "question": "Continue the pattern: 5, 10, 20, 40, ?",
+    "expected_answer": "80",
+    "acceptable_answers": [
+      "80"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_018",
+    "category": "patterns",
+    "question": "What letter comes after this: p, q, r, s?",
+    "expected_answer": "t",
+    "acceptable_answers": [
+      "t"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_019",
+    "category": "patterns",
+    "question": "Continue: 75, 68, 61, 54, ?",
+    "expected_answer": "47",
+    "acceptable_answers": [
+      "47"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_020",
+    "category": "patterns",
+    "question": "What number comes after this: 8, 13, 18, 23?",
+    "expected_answer": "28",
+    "acceptable_answers": [
+      "28"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_021",
+    "category": "patterns",
+    "question": "What letter comes after this: r, s, t, u?",
+    "expected_answer": "v",
+    "acceptable_answers": [
+      "v"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_022",
+    "category": "patterns",
+    "question": "Continue: 86, 77, 68, 59, ?",
+    "expected_answer": "50",
+    "acceptable_answers": [
+      "50"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_023",
+    "category": "patterns",
+    "question": "What number comes after this: 18, 21, 24, 27?",
+    "expected_answer": "30",
+    "acceptable_answers": [
+      "30"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_024",
+    "category": "patterns",
+    "question": "Continue the pattern: 5, 15, 45, 135, ?",
+    "expected_answer": "405",
+    "acceptable_answers": [
+      "405"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_025",
+    "category": "patterns",
+    "question": "What letter comes after this: o, p, q, r?",
+    "expected_answer": "s",
+    "acceptable_answers": [
+      "s"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_026",
+    "category": "patterns",
+    "question": "Continue: 75, 67, 59, 51, ?",
+    "expected_answer": "43",
+    "acceptable_answers": [
+      "43"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_027",
+    "category": "patterns",
+    "question": "What number comes after this: 13, 20, 27, 34?",
+    "expected_answer": "41",
+    "acceptable_answers": [
+      "41"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_028",
+    "category": "patterns",
+    "question": "Continue the pattern: 12, 36, 108, 324, ?",
+    "expected_answer": "972",
+    "acceptable_answers": [
+      "972"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_029",
+    "category": "patterns",
+    "question": "What letter comes after this: u, v, w, x?",
+    "expected_answer": "y",
+    "acceptable_answers": [
+      "y"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_030",
+    "category": "patterns",
+    "question": "Continue: 54, 52, 50, 48, ?",
+    "expected_answer": "46",
+    "acceptable_answers": [
+      "46"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_031",
+    "category": "patterns",
+    "question": "What number comes after this: 20, 23, 26, 29?",
+    "expected_answer": "32",
+    "acceptable_answers": [
+      "32"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_032",
+    "category": "patterns",
+    "question": "Continue the pattern: 10, 20, 40, 80, ?",
+    "expected_answer": "160",
+    "acceptable_answers": [
+      "160"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_033",
+    "category": "patterns",
+    "question": "Continue: 91, 88, 85, 82, ?",
+    "expected_answer": "79",
+    "acceptable_answers": [
+      "79"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_034",
+    "category": "patterns",
+    "question": "What number comes after this: 13, 16, 19, 22?",
+    "expected_answer": "25",
+    "acceptable_answers": [
+      "25"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_035",
+    "category": "patterns",
+    "question": "Continue the pattern: 1, 2, 4, 8, ?",
+    "expected_answer": "16",
+    "acceptable_answers": [
+      "16"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_036",
+    "category": "patterns",
+    "question": "Continue: 50, 46, 42, 38, ?",
+    "expected_answer": "34",
+    "acceptable_answers": [
+      "34"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_037",
+    "category": "patterns",
+    "question": "What number comes after this: 1, 5, 9, 13?",
+    "expected_answer": "17",
+    "acceptable_answers": [
+      "17"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_038",
+    "category": "patterns",
+    "question": "Continue the pattern: 9, 18, 36, 72, ?",
+    "expected_answer": "144",
+    "acceptable_answers": [
+      "144"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_039",
+    "category": "patterns",
+    "question": "What letter comes after this: g, h, i, j?",
+    "expected_answer": "k",
+    "acceptable_answers": [
+      "k"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_040",
+    "category": "patterns",
+    "question": "Continue: 69, 63, 57, 51, ?",
+    "expected_answer": "45",
+    "acceptable_answers": [
+      "45"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_041",
+    "category": "patterns",
+    "question": "What number comes after this: 16, 18, 20, 22?",
+    "expected_answer": "24",
+    "acceptable_answers": [
+      "24"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_042",
+    "category": "patterns",
+    "question": "Continue the pattern: 7, 14, 28, 56, ?",
+    "expected_answer": "112",
+    "acceptable_answers": [
+      "112"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_043",
+    "category": "patterns",
+    "question": "What letter comes after this: a, b, c, d?",
+    "expected_answer": "e",
+    "acceptable_answers": [
+      "e"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_044",
+    "category": "patterns",
+    "question": "Continue: 76, 70, 64, 58, ?",
+    "expected_answer": "52",
+    "acceptable_answers": [
+      "52"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_045",
+    "category": "patterns",
+    "question": "What number comes after this: 14, 23, 32, 41?",
+    "expected_answer": "50",
+    "acceptable_answers": [
+      "50"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_046",
+    "category": "patterns",
+    "question": "What letter comes after this: q, r, s, t?",
+    "expected_answer": "u",
+    "acceptable_answers": [
+      "u"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_047",
+    "category": "patterns",
+    "question": "Continue: 70, 61, 52, 43, ?",
+    "expected_answer": "34",
+    "acceptable_answers": [
+      "34"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_048",
+    "category": "patterns",
+    "question": "What number comes after this: 20, 25, 30, 35?",
+    "expected_answer": "40",
+    "acceptable_answers": [
+      "40"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "patterns_049",
+    "category": "patterns",
+    "question": "What letter comes after this: s, t, u, v?",
+    "expected_answer": "w",
+    "acceptable_answers": [
+      "w"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "patterns_050",
+    "category": "patterns",
+    "question": "Continue: 73, 71, 69, 67, ?",
+    "expected_answer": "65",
+    "acceptable_answers": [
+      "65"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "general_knowledge_001",
+    "category": "general_knowledge",
+    "question": "Which planet is the biggest one?",
+    "expected_answer": "Jupiter",
+    "acceptable_answers": [
+      "Jupiter"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_002",
+    "category": "general_knowledge",
+    "question": "Which planet is the smallest one?",
+    "expected_answer": "Mercury",
+    "acceptable_answers": [
+      "Mercury"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_003",
+    "category": "general_knowledge",
+    "question": "Which planet sits closest to the sun?",
+    "expected_answer": "Mercury",
+    "acceptable_answers": [
+      "Mercury"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_004",
+    "category": "general_knowledge",
+    "question": "Which planet is known for being red?",
+    "expected_answer": "Mars",
+    "acceptable_answers": [
+      "Mars"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_005",
+    "category": "general_knowledge",
+    "question": "On which planet do humans live?",
+    "expected_answer": "Earth",
+    "acceptable_answers": [
+      "Earth"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_006",
+    "category": "general_knowledge",
+    "question": "Name the star at the center of our solar system.",
+    "expected_answer": "sun",
+    "acceptable_answers": [
+      "sun"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_007",
+    "category": "general_knowledge",
+    "question": "What orbits the Earth at night?",
+    "expected_answer": "moon",
+    "acceptable_answers": [
+      "moon"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_008",
+    "category": "general_knowledge",
+    "question": "How many days does a normal year have?",
+    "expected_answer": "365",
+    "acceptable_answers": [
+      "365"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_009",
+    "category": "general_knowledge",
+    "question": "How many days make one week?",
+    "expected_answer": "seven",
+    "acceptable_answers": [
+      "seven",
+      "7"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_010",
+    "category": "general_knowledge",
+    "question": "How many hours make one day?",
+    "expected_answer": "24",
+    "acceptable_answers": [
+      "24"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_011",
+    "category": "general_knowledge",
+    "question": "How many minutes make one hour?",
+    "expected_answer": "60",
+    "acceptable_answers": [
+      "60"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_012",
+    "category": "general_knowledge",
+    "question": "How many months make one year?",
+    "expected_answer": "twelve",
+    "acceptable_answers": [
+      "twelve",
+      "12"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_013",
+    "category": "general_knowledge",
+    "question": "Which ocean is the biggest?",
+    "expected_answer": "Pacific",
+    "acceptable_answers": [
+      "Pacific"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_014",
+    "category": "general_knowledge",
+    "question": "Which river is often called the longest one?",
+    "expected_answer": "Nile",
+    "acceptable_answers": [
+      "Nile"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_015",
+    "category": "general_knowledge",
+    "question": "Which mountain is the highest?",
+    "expected_answer": "Everest",
+    "acceptable_answers": [
+      "Everest"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_016",
+    "category": "general_knowledge",
+    "question": "Which animal is the biggest of all?",
+    "expected_answer": "blue whale",
+    "acceptable_answers": [
+      "blue whale",
+      "whale"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_017",
+    "category": "general_knowledge",
+    "question": "Which land animal runs the fastest?",
+    "expected_answer": "cheetah",
+    "acceptable_answers": [
+      "cheetah"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_018",
+    "category": "general_knowledge",
+    "question": "Which animal is called king of the jungle?",
+    "expected_answer": "lion",
+    "acceptable_answers": [
+      "lion"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_019",
+    "category": "general_knowledge",
+    "question": "What do bees produce?",
+    "expected_answer": "honey",
+    "acceptable_answers": [
+      "honey"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_020",
+    "category": "general_knowledge",
+    "question": "What noise does a dog make?",
+    "expected_answer": "woof",
+    "acceptable_answers": [
+      "woof"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_021",
+    "category": "general_knowledge",
+    "question": "What noise does a cat make?",
+    "expected_answer": "meow",
+    "acceptable_answers": [
+      "meow"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_022",
+    "category": "general_knowledge",
+    "question": "Tell me the color of the sky.",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_023",
+    "category": "general_knowledge",
+    "question": "Tell me the color of grass.",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_024",
+    "category": "general_knowledge",
+    "question": "Tell me the color of snow.",
+    "expected_answer": "white",
+    "acceptable_answers": [
+      "white"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_025",
+    "category": "general_knowledge",
+    "question": "Mixing blue and yellow gives which color?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_026",
+    "category": "general_knowledge",
+    "question": "Mixing red and blue gives which color?",
+    "expected_answer": "purple",
+    "acceptable_answers": [
+      "purple"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_027",
+    "category": "general_knowledge",
+    "question": "Which two elements make water?",
+    "expected_answer": "hydrogen and oxygen",
+    "acceptable_answers": [
+      "hydrogen",
+      "oxygen"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_028",
+    "category": "general_knowledge",
+    "question": "At what temperature in celsius does water boil?",
+    "expected_answer": "100",
+    "acceptable_answers": [
+      "100"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_029",
+    "category": "general_knowledge",
+    "question": "At what temperature in celsius does water freeze?",
+    "expected_answer": "0",
+    "acceptable_answers": [
+      "0",
+      "zero"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_030",
+    "category": "general_knowledge",
+    "question": "How many legs are on a spider?",
+    "expected_answer": "eight",
+    "acceptable_answers": [
+      "eight",
+      "8"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_031",
+    "category": "general_knowledge",
+    "question": "How many legs are on an insect?",
+    "expected_answer": "six",
+    "acceptable_answers": [
+      "six",
+      "6"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_032",
+    "category": "general_knowledge",
+    "question": "How many continents does Earth have?",
+    "expected_answer": "seven",
+    "acceptable_answers": [
+      "seven",
+      "7"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_033",
+    "category": "general_knowledge",
+    "question": "Which continent is the biggest?",
+    "expected_answer": "Asia",
+    "acceptable_answers": [
+      "Asia"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_034",
+    "category": "general_knowledge",
+    "question": "Which language do people speak in France?",
+    "expected_answer": "French",
+    "acceptable_answers": [
+      "French"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_035",
+    "category": "general_knowledge",
+    "question": "Which language do people speak in Japan?",
+    "expected_answer": "Japanese",
+    "acceptable_answers": [
+      "Japanese"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_036",
+    "category": "general_knowledge",
+    "question": "Who is the author of Romeo and Juliet?",
+    "expected_answer": "Shakespeare",
+    "acceptable_answers": [
+      "Shakespeare"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_037",
+    "category": "general_knowledge",
+    "question": "Who created the painting Mona Lisa?",
+    "expected_answer": "da Vinci",
+    "acceptable_answers": [
+      "da Vinci",
+      "Leonardo"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_038",
+    "category": "general_knowledge",
+    "question": "How many sides are on a triangle?",
+    "expected_answer": "three",
+    "acceptable_answers": [
+      "three",
+      "3"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_039",
+    "category": "general_knowledge",
+    "question": "How many sides are on a square?",
+    "expected_answer": "four",
+    "acceptable_answers": [
+      "four",
+      "4"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_040",
+    "category": "general_knowledge",
+    "question": "Name the city that is the capital of France.",
+    "expected_answer": "Paris",
+    "acceptable_answers": [
+      "Paris"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_041",
+    "category": "general_knowledge",
+    "question": "Name the city that is the capital of Japan.",
+    "expected_answer": "Tokyo",
+    "acceptable_answers": [
+      "Tokyo"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_042",
+    "category": "general_knowledge",
+    "question": "Name the city that is the capital of Italy.",
+    "expected_answer": "Rome",
+    "acceptable_answers": [
+      "Rome"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_043",
+    "category": "general_knowledge",
+    "question": "Name the city that is the capital of Germany.",
+    "expected_answer": "Berlin",
+    "acceptable_answers": [
+      "Berlin"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_044",
+    "category": "general_knowledge",
+    "question": "Name the city that is the capital of Spain.",
+    "expected_answer": "Madrid",
+    "acceptable_answers": [
+      "Madrid"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_045",
+    "category": "general_knowledge",
+    "question": "Name the city that is the capital of India.",
+    "expected_answer": "New Delhi",
+    "acceptable_answers": [
+      "New Delhi",
+      "Delhi"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_046",
+    "category": "general_knowledge",
+    "question": "How many strings does a normal guitar have?",
+    "expected_answer": "six",
+    "acceptable_answers": [
+      "six",
+      "6"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_047",
+    "category": "general_knowledge",
+    "question": "What is the biggest desert called?",
+    "expected_answer": "Sahara",
+    "acceptable_answers": [
+      "Sahara"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_048",
+    "category": "general_knowledge",
+    "question": "How many players are on a football team on the field?",
+    "expected_answer": "eleven",
+    "acceptable_answers": [
+      "eleven",
+      "11"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_049",
+    "category": "general_knowledge",
+    "question": "Which season comes after summer?",
+    "expected_answer": "autumn",
+    "acceptable_answers": [
+      "autumn",
+      "fall"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "general_knowledge_050",
+    "category": "general_knowledge",
+    "question": "How many colors are in a rainbow?",
+    "expected_answer": "seven",
+    "acceptable_answers": [
+      "seven",
+      "7"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_001",
+    "category": "instruction_following",
+    "question": "Answer in one word: what color is the sky?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_002",
+    "category": "instruction_following",
+    "question": "Answer in one word: what color is grass?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_003",
+    "category": "instruction_following",
+    "question": "Answer in one word: what do bees make?",
+    "expected_answer": "honey",
+    "acceptable_answers": [
+      "honey"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_004",
+    "category": "instruction_following",
+    "question": "Answer in one word: which planet do we live on?",
+    "expected_answer": "Earth",
+    "acceptable_answers": [
+      "Earth"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_005",
+    "category": "instruction_following",
+    "question": "Answer in one word: what sound does a cat make?",
+    "expected_answer": "meow",
+    "acceptable_answers": [
+      "meow"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_006",
+    "category": "instruction_following",
+    "question": "Answer in one word: what is the capital of France?",
+    "expected_answer": "Paris",
+    "acceptable_answers": [
+      "Paris"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_007",
+    "category": "instruction_following",
+    "question": "Answer in one word: what is the capital of Japan?",
+    "expected_answer": "Tokyo",
+    "acceptable_answers": [
+      "Tokyo"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_008",
+    "category": "instruction_following",
+    "question": "Answer in one word: what color is snow?",
+    "expected_answer": "white",
+    "acceptable_answers": [
+      "white"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_009",
+    "category": "instruction_following",
+    "question": "Answer in one word: what do cows drink?",
+    "expected_answer": "water",
+    "acceptable_answers": [
+      "water"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_010",
+    "category": "instruction_following",
+    "question": "Answer in one word: what is the largest planet?",
+    "expected_answer": "Jupiter",
+    "acceptable_answers": [
+      "Jupiter"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_011",
+    "category": "instruction_following",
+    "question": "Answer in one word: what is the red planet?",
+    "expected_answer": "Mars",
+    "acceptable_answers": [
+      "Mars"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_012",
+    "category": "instruction_following",
+    "question": "Answer in one word: what is the fastest land animal?",
+    "expected_answer": "cheetah",
+    "acceptable_answers": [
+      "cheetah"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_013",
+    "category": "instruction_following",
+    "question": "Answer in one word: what is the capital of Italy?",
+    "expected_answer": "Rome",
+    "acceptable_answers": [
+      "Rome"
+    ],
+    "method": "one_word_correct"
+  },
+  {
+    "id": "instruction_following_014",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is the sky blue?",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_015",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is snow black?",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_016",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is grass green?",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_017",
+    "category": "instruction_following",
+    "question": "Answer yes or no: do spiders have eight legs?",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_018",
+    "category": "instruction_following",
+    "question": "Answer yes or no: do dogs say meow?",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_019",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is the sun a star?",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_020",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is 10 bigger than 5?",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_021",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is 3 bigger than 8?",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_022",
+    "category": "instruction_following",
+    "question": "Answer yes or no: does a week have seven days?",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_023",
+    "category": "instruction_following",
+    "question": "Answer yes or no: does a triangle have four sides?",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_024",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is water made of hydrogen and gold?",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_025",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is Paris the capital of France?",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_026",
+    "category": "instruction_following",
+    "question": "Answer yes or no: is Tokyo the capital of Spain?",
+    "expected_answer": "no",
+    "acceptable_answers": [
+      "no"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "instruction_following_027",
+    "category": "instruction_following",
+    "question": "Say the word hello.",
+    "expected_answer": "hello",
+    "acceptable_answers": [
+      "hello"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_028",
+    "category": "instruction_following",
+    "question": "Say the word apple.",
+    "expected_answer": "apple",
+    "acceptable_answers": [
+      "apple"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_029",
+    "category": "instruction_following",
+    "question": "Repeat this word: banana",
+    "expected_answer": "banana",
+    "acceptable_answers": [
+      "banana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_030",
+    "category": "instruction_following",
+    "question": "Repeat this word: ocean",
+    "expected_answer": "ocean",
+    "acceptable_answers": [
+      "ocean"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_031",
+    "category": "instruction_following",
+    "question": "Say the word blue.",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_032",
+    "category": "instruction_following",
+    "question": "Repeat this word: seven",
+    "expected_answer": "seven",
+    "acceptable_answers": [
+      "seven"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_033",
+    "category": "instruction_following",
+    "question": "Say the word cat.",
+    "expected_answer": "cat",
+    "acceptable_answers": [
+      "cat"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_034",
+    "category": "instruction_following",
+    "question": "Repeat this word: morning",
+    "expected_answer": "morning",
+    "acceptable_answers": [
+      "morning"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_035",
+    "category": "instruction_following",
+    "question": "Say the word yes.",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_036",
+    "category": "instruction_following",
+    "question": "Repeat this word: tiny",
+    "expected_answer": "tiny",
+    "acceptable_answers": [
+      "tiny"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_037",
+    "category": "instruction_following",
+    "question": "Say the word sun.",
+    "expected_answer": "sun",
+    "acceptable_answers": [
+      "sun"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_038",
+    "category": "instruction_following",
+    "question": "Repeat this word: happy",
+    "expected_answer": "happy",
+    "acceptable_answers": [
+      "happy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "instruction_following_039",
+    "category": "instruction_following",
+    "question": "Name exactly three colors.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_040",
+    "category": "instruction_following",
+    "question": "Name exactly three animals.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_041",
+    "category": "instruction_following",
+    "question": "Name exactly three countries.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_042",
+    "category": "instruction_following",
+    "question": "Name exactly three planets.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_043",
+    "category": "instruction_following",
+    "question": "List exactly three fruits.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_044",
+    "category": "instruction_following",
+    "question": "List exactly three numbers.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_045",
+    "category": "instruction_following",
+    "question": "Name exactly three cities.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_046",
+    "category": "instruction_following",
+    "question": "List exactly three days of the week.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_047",
+    "category": "instruction_following",
+    "question": "Name exactly three body parts.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_048",
+    "category": "instruction_following",
+    "question": "List exactly three things that are blue.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_049",
+    "category": "instruction_following",
+    "question": "Name exactly three sports.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "instruction_following_050",
+    "category": "instruction_following",
+    "question": "List exactly three shapes.",
+    "expected_answer": "any three items",
+    "acceptable_answers": [
+      "any three items"
+    ],
+    "method": "three_items"
+  },
+  {
+    "id": "reading_comprehension_001",
+    "category": "reading_comprehension",
+    "question": "Amy has a blue car. Ben has a green car. What color is Ben's car?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_002",
+    "category": "reading_comprehension",
+    "question": "Tom has a white car. Leo has a green car. What color is Tom's car?",
+    "expected_answer": "white",
+    "acceptable_answers": [
+      "white"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_003",
+    "category": "reading_comprehension",
+    "question": "Ana has a green hat. Sam has a red hat. What color is Ana's hat?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_004",
+    "category": "reading_comprehension",
+    "question": "Sam has a green cup. Amy has a white cup. What color is Amy's cup?",
+    "expected_answer": "white",
+    "acceptable_answers": [
+      "white"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_005",
+    "category": "reading_comprehension",
+    "question": "Mia has a blue hat. Dan has a red hat. What color is Mia's hat?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_006",
+    "category": "reading_comprehension",
+    "question": "Ben has a blue bag. Mia has a red bag. What color is Ben's bag?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_007",
+    "category": "reading_comprehension",
+    "question": "Leo has a red ball. Amy has a white ball. What color is Leo's ball?",
+    "expected_answer": "red",
+    "acceptable_answers": [
+      "red"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_008",
+    "category": "reading_comprehension",
+    "question": "Tom has a white hat. Sam has a blue hat. What color is Tom's hat?",
+    "expected_answer": "white",
+    "acceptable_answers": [
+      "white"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_009",
+    "category": "reading_comprehension",
+    "question": "Tom has a green hat. Mia has a white hat. What color is Tom's hat?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_010",
+    "category": "reading_comprehension",
+    "question": "Ben has a red cup. Dan has a green cup. What color is Ben's cup?",
+    "expected_answer": "red",
+    "acceptable_answers": [
+      "red"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_011",
+    "category": "reading_comprehension",
+    "question": "Amy has a blue bag. Dan has a green bag. What color is Dan's bag?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_012",
+    "category": "reading_comprehension",
+    "question": "Mia has a blue ball. Dan has a white ball. What color is Mia's ball?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_013",
+    "category": "reading_comprehension",
+    "question": "Mia has a green car. Leo has a blue car. What color is Leo's car?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_014",
+    "category": "reading_comprehension",
+    "question": "Ben has a green bag. Leo has a blue bag. What color is Leo's bag?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_015",
+    "category": "reading_comprehension",
+    "question": "Ben has a white hat. Mia has a blue hat. What color is Mia's hat?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_016",
+    "category": "reading_comprehension",
+    "question": "Sam has a white cup. Mia has a green cup. What color is Mia's cup?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_017",
+    "category": "reading_comprehension",
+    "question": "Dan has a blue car. Ben has a green car. What color is Dan's car?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_018",
+    "category": "reading_comprehension",
+    "question": "Ana has a blue hat. Amy has a red hat. What color is Ana's hat?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_019",
+    "category": "reading_comprehension",
+    "question": "Ana has a red bag. Amy has a green bag. What color is Ana's bag?",
+    "expected_answer": "red",
+    "acceptable_answers": [
+      "red"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_020",
+    "category": "reading_comprehension",
+    "question": "Leo has a green car. Ben has a white car. What color is Leo's car?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_021",
+    "category": "reading_comprehension",
+    "question": "Ben has a red bag. Mia has a blue bag. What color is Ben's bag?",
+    "expected_answer": "red",
+    "acceptable_answers": [
+      "red"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_022",
+    "category": "reading_comprehension",
+    "question": "Mia has a blue cup. Ana has a white cup. What color is Mia's cup?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_023",
+    "category": "reading_comprehension",
+    "question": "Sam has a blue ball. Dan has a green ball. What color is Sam's ball?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_024",
+    "category": "reading_comprehension",
+    "question": "Leo has a blue bag. Sam has a red bag. What color is Leo's bag?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_025",
+    "category": "reading_comprehension",
+    "question": "Ben has a green ball. Ana has a white ball. What color is Ben's ball?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_026",
+    "category": "reading_comprehension",
+    "question": "Leo has a red ball. Tom has a blue ball. What color is Tom's ball?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_027",
+    "category": "reading_comprehension",
+    "question": "Dan has a blue cup. Ana has a green cup. What color is Ana's cup?",
+    "expected_answer": "green",
+    "acceptable_answers": [
+      "green"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_028",
+    "category": "reading_comprehension",
+    "question": "Amy has a red cup. Leo has a white cup. What color is Leo's cup?",
+    "expected_answer": "white",
+    "acceptable_answers": [
+      "white"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_029",
+    "category": "reading_comprehension",
+    "question": "Mia has a green cup. Ben has a blue cup. What color is Ben's cup?",
+    "expected_answer": "blue",
+    "acceptable_answers": [
+      "blue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_030",
+    "category": "reading_comprehension",
+    "question": "Dan has a red cup. Mia has a blue cup. What color is Dan's cup?",
+    "expected_answer": "red",
+    "acceptable_answers": [
+      "red"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_031",
+    "category": "reading_comprehension",
+    "question": "Sam has 12 coins. Mia has 19 coins. Who has more coins?",
+    "expected_answer": "Mia",
+    "acceptable_answers": [
+      "Mia"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_032",
+    "category": "reading_comprehension",
+    "question": "Ana has 9 pens. Leo has 20 pens. Who has more pens?",
+    "expected_answer": "Leo",
+    "acceptable_answers": [
+      "Leo"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_033",
+    "category": "reading_comprehension",
+    "question": "Leo has 4 books. Amy has 18 books. Who has more books?",
+    "expected_answer": "Amy",
+    "acceptable_answers": [
+      "Amy"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_034",
+    "category": "reading_comprehension",
+    "question": "Mia has 5 books. Ana has 20 books. Who has more books?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_035",
+    "category": "reading_comprehension",
+    "question": "Ana has 18 apples. Sam has 1 apples. Who has more apples?",
+    "expected_answer": "Ana",
+    "acceptable_answers": [
+      "Ana"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_036",
+    "category": "reading_comprehension",
+    "question": "Mia has 2 apples. Ben has 9 apples. Who has more apples?",
+    "expected_answer": "Ben",
+    "acceptable_answers": [
+      "Ben"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_037",
+    "category": "reading_comprehension",
+    "question": "Mia has 9 pens. Leo has 11 pens. Who has more pens?",
+    "expected_answer": "Leo",
+    "acceptable_answers": [
+      "Leo"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_038",
+    "category": "reading_comprehension",
+    "question": "Sam has 3 pens. Mia has 13 pens. Who has more pens?",
+    "expected_answer": "Mia",
+    "acceptable_answers": [
+      "Mia"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_039",
+    "category": "reading_comprehension",
+    "question": "Ben has 18 pens. Dan has 11 pens. Who has more pens?",
+    "expected_answer": "Ben",
+    "acceptable_answers": [
+      "Ben"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_040",
+    "category": "reading_comprehension",
+    "question": "Leo has 2 coins. Tom has 4 coins. Who has more coins?",
+    "expected_answer": "Tom",
+    "acceptable_answers": [
+      "Tom"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_041",
+    "category": "reading_comprehension",
+    "question": "Sam owns a fish. Tom owns a dog. What pet does Tom own?",
+    "expected_answer": "dog",
+    "acceptable_answers": [
+      "dog"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_042",
+    "category": "reading_comprehension",
+    "question": "Ben owns a bird. Tom owns a cat. What pet does Ben own?",
+    "expected_answer": "bird",
+    "acceptable_answers": [
+      "bird"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_043",
+    "category": "reading_comprehension",
+    "question": "Ben owns a bird. Ana owns a cat. What pet does Ana own?",
+    "expected_answer": "cat",
+    "acceptable_answers": [
+      "cat"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_044",
+    "category": "reading_comprehension",
+    "question": "Mia owns a cat. Dan owns a dog. What pet does Dan own?",
+    "expected_answer": "dog",
+    "acceptable_answers": [
+      "dog"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_045",
+    "category": "reading_comprehension",
+    "question": "Mia owns a dog. Dan owns a bird. What pet does Mia own?",
+    "expected_answer": "dog",
+    "acceptable_answers": [
+      "dog"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_046",
+    "category": "reading_comprehension",
+    "question": "Dan owns a fish. Mia owns a dog. What pet does Dan own?",
+    "expected_answer": "fish",
+    "acceptable_answers": [
+      "fish"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_047",
+    "category": "reading_comprehension",
+    "question": "Tom owns a fish. Leo owns a cat. What pet does Tom own?",
+    "expected_answer": "fish",
+    "acceptable_answers": [
+      "fish"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_048",
+    "category": "reading_comprehension",
+    "question": "Ben owns a fish. Dan owns a bird. What pet does Dan own?",
+    "expected_answer": "bird",
+    "acceptable_answers": [
+      "bird"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_049",
+    "category": "reading_comprehension",
+    "question": "Dan owns a dog. Mia owns a bird. What pet does Dan own?",
+    "expected_answer": "dog",
+    "acceptable_answers": [
+      "dog"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "reading_comprehension_050",
+    "category": "reading_comprehension",
+    "question": "Sam owns a cat. Dan owns a fish. What pet does Sam own?",
+    "expected_answer": "cat",
+    "acceptable_answers": [
+      "cat"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_001",
+    "category": "coding",
+    "question": "In python, which keyword shows text on the screen?",
+    "expected_answer": "print",
+    "acceptable_answers": [
+      "print"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_002",
+    "category": "coding",
+    "question": "In python, which keyword defines a function?",
+    "expected_answer": "def",
+    "acceptable_answers": [
+      "def"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_003",
+    "category": "coding",
+    "question": "In python, which keyword creates a loop over a list?",
+    "expected_answer": "for",
+    "acceptable_answers": [
+      "for"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_004",
+    "category": "coding",
+    "question": "In python, which keyword makes a condition?",
+    "expected_answer": "if",
+    "acceptable_answers": [
+      "if"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_005",
+    "category": "coding",
+    "question": "In python, which keyword returns a value from a function?",
+    "expected_answer": "return",
+    "acceptable_answers": [
+      "return"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_006",
+    "category": "coding",
+    "question": "In python, which keyword imports a module?",
+    "expected_answer": "import",
+    "acceptable_answers": [
+      "import"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_007",
+    "category": "coding",
+    "question": "In python, which word means an empty value?",
+    "expected_answer": "None",
+    "acceptable_answers": [
+      "None"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_008",
+    "category": "coding",
+    "question": "In python, which keyword ends a loop early?",
+    "expected_answer": "break",
+    "acceptable_answers": [
+      "break"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_009",
+    "category": "coding",
+    "question": "In python, which keyword skips to the next loop step?",
+    "expected_answer": "continue",
+    "acceptable_answers": [
+      "continue"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_010",
+    "category": "coding",
+    "question": "In python, which keyword defines a class?",
+    "expected_answer": "class",
+    "acceptable_answers": [
+      "class"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_011",
+    "category": "coding",
+    "question": "Which symbol adds two numbers in code?",
+    "expected_answer": "+",
+    "acceptable_answers": [
+      "+"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_012",
+    "category": "coding",
+    "question": "Which symbol multiplies two numbers in code?",
+    "expected_answer": "*",
+    "acceptable_answers": [
+      "*"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_013",
+    "category": "coding",
+    "question": "Which symbol checks equality in python?",
+    "expected_answer": "==",
+    "acceptable_answers": [
+      "==",
+      "equals"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_014",
+    "category": "coding",
+    "question": "Which symbol assigns a value in python?",
+    "expected_answer": "=",
+    "acceptable_answers": [
+      "="
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_015",
+    "category": "coding",
+    "question": "What is the result of 2 ** 3 in python?",
+    "expected_answer": "8",
+    "acceptable_answers": [
+      "8"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "coding_016",
+    "category": "coding",
+    "question": "What is the result of 10 - 3 in python?",
+    "expected_answer": "7",
+    "acceptable_answers": [
+      "7"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "coding_017",
+    "category": "coding",
+    "question": "What is the result of 7 * 2 in python?",
+    "expected_answer": "14",
+    "acceptable_answers": [
+      "14"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "coding_018",
+    "category": "coding",
+    "question": "What does 5 == 5 give in python?",
+    "expected_answer": "True",
+    "acceptable_answers": [
+      "True",
+      "true",
+      "yes"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_019",
+    "category": "coding",
+    "question": "What does 3 == 4 give in python?",
+    "expected_answer": "False",
+    "acceptable_answers": [
+      "False",
+      "false",
+      "no"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_020",
+    "category": "coding",
+    "question": "In python, what type is the value 5?",
+    "expected_answer": "int",
+    "acceptable_answers": [
+      "int",
+      "integer",
+      "number"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_021",
+    "category": "coding",
+    "question": "In python, what type is the value 5.0?",
+    "expected_answer": "float",
+    "acceptable_answers": [
+      "float"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_022",
+    "category": "coding",
+    "question": "In python, what type is the value hello?",
+    "expected_answer": "string",
+    "acceptable_answers": [
+      "string",
+      "str"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_023",
+    "category": "coding",
+    "question": "In python, what type is the value True?",
+    "expected_answer": "bool",
+    "acceptable_answers": [
+      "bool",
+      "boolean"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_024",
+    "category": "coding",
+    "question": "Which language is named after a snake?",
+    "expected_answer": "python",
+    "acceptable_answers": [
+      "python"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_025",
+    "category": "coding",
+    "question": "Which language runs inside web browsers?",
+    "expected_answer": "javascript",
+    "acceptable_answers": [
+      "javascript"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_026",
+    "category": "coding",
+    "question": "What does HTML build?",
+    "expected_answer": "web pages",
+    "acceptable_answers": [
+      "web",
+      "pages",
+      "websites"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_027",
+    "category": "coding",
+    "question": "What does CSS control on a web page?",
+    "expected_answer": "style",
+    "acceptable_answers": [
+      "style",
+      "styling",
+      "looks",
+      "design"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_028",
+    "category": "coding",
+    "question": "In python, which function gives the length of a list?",
+    "expected_answer": "len",
+    "acceptable_answers": [
+      "len"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_029",
+    "category": "coding",
+    "question": "In python, which function turns text into a number?",
+    "expected_answer": "int",
+    "acceptable_answers": [
+      "int"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_030",
+    "category": "coding",
+    "question": "In python, which function asks the user to type something?",
+    "expected_answer": "input",
+    "acceptable_answers": [
+      "input"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_031",
+    "category": "coding",
+    "question": "What is a bug in a program?",
+    "expected_answer": "an error",
+    "acceptable_answers": [
+      "error",
+      "mistake",
+      "problem"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_032",
+    "category": "coding",
+    "question": "What does a loop do in a program?",
+    "expected_answer": "repeats",
+    "acceptable_answers": [
+      "repeat",
+      "repeats",
+      "again"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_033",
+    "category": "coding",
+    "question": "What does a variable store?",
+    "expected_answer": "a value",
+    "acceptable_answers": [
+      "value",
+      "data"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_034",
+    "category": "coding",
+    "question": "What does a function do in code?",
+    "expected_answer": "runs a task",
+    "acceptable_answers": [
+      "task",
+      "reusable",
+      "code",
+      "action"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_035",
+    "category": "coding",
+    "question": "In python, is indentation important? Answer yes or no.",
+    "expected_answer": "yes",
+    "acceptable_answers": [
+      "yes"
+    ],
+    "method": "yes_no"
+  },
+  {
+    "id": "coding_036",
+    "category": "coding",
+    "question": "In python, which word is used for true or false values?",
+    "expected_answer": "bool",
+    "acceptable_answers": [
+      "bool",
+      "boolean"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_037",
+    "category": "coding",
+    "question": "Which symbol starts a comment in python?",
+    "expected_answer": "hash",
+    "acceptable_answers": [
+      "hash",
+      "#",
+      "pound"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_038",
+    "category": "coding",
+    "question": "In python, what does the plus symbol do to two strings?",
+    "expected_answer": "joins them",
+    "acceptable_answers": [
+      "join",
+      "joins",
+      "concatenate",
+      "combines"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_039",
+    "category": "coding",
+    "question": "What number does a python list start counting from?",
+    "expected_answer": "0",
+    "acceptable_answers": [
+      "0",
+      "zero"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "coding_040",
+    "category": "coding",
+    "question": "What is the result of 9 + 1 in python?",
+    "expected_answer": "10",
+    "acceptable_answers": [
+      "10"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "coding_041",
+    "category": "coding",
+    "question": "In python, which keyword handles errors with except?",
+    "expected_answer": "try",
+    "acceptable_answers": [
+      "try"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_042",
+    "category": "coding",
+    "question": "In python, which keyword goes with try to catch errors?",
+    "expected_answer": "e-cept",
+    "acceptable_answers": [
+      "except"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_043",
+    "category": "coding",
+    "question": "In python, which keyword is the opposite of if?",
+    "expected_answer": "else",
+    "acceptable_answers": [
+      "else"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_044",
+    "category": "coding",
+    "question": "Which company made the iPhone?",
+    "expected_answer": "Apple",
+    "acceptable_answers": [
+      "Apple"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_045",
+    "category": "coding",
+    "question": "What does AI stand for?",
+    "expected_answer": "artificial intelligence",
+    "acceptable_answers": [
+      "artificial intelligence",
+      "artificial"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_046",
+    "category": "coding",
+    "question": "What does CPU stand for?",
+    "expected_answer": "central processing unit",
+    "acceptable_answers": [
+      "central processing unit",
+      "processor",
+      "central"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_047",
+    "category": "coding",
+    "question": "What is the result of 100 - 1 in python?",
+    "expected_answer": "99",
+    "acceptable_answers": [
+      "99"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "coding_048",
+    "category": "coding",
+    "question": "What is the result of 6 * 6 in python?",
+    "expected_answer": "36",
+    "acceptable_answers": [
+      "36"
+    ],
+    "method": "number"
+  },
+  {
+    "id": "coding_049",
+    "category": "coding",
+    "question": "In python, which loop runs while a condition is true?",
+    "expected_answer": "while",
+    "acceptable_answers": [
+      "while"
+    ],
+    "method": "contains"
+  },
+  {
+    "id": "coding_050",
+    "category": "coding",
+    "question": "What do you call a saved program file for python?",
+    "expected_answer": "a python file",
+    "acceptable_answers": [
+      "py",
+      "script",
+      "file"
+    ],
+    "method": "contains"
+  }
+]

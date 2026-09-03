@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aizen</title>
+<style>
+  :root{
+    --bg:#f6f4f1;
+    --ink:#181720;
+    --dim:#87838f;
+    --line:rgba(120,112,140,.14);
+    --accent:#6d5ce7;
+    --accent-soft:#efecfd;
+    --warm:#e0703f;
+    --warm-soft:#fdefe6;
+    --lift:0 1px 2px rgba(40,32,70,.04), 0 8px 26px rgba(40,32,70,.06);
+    --ease-out:cubic-bezier(.23,1,.32,1);
+    --ease-in-out:cubic-bezier(.77,0,.175,1);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    font:16px/1.6 ui-sans-serif,-apple-system,"Segoe UI",sans-serif;
+    color:var(--ink);
+    background:
+      radial-gradient(720px 480px at 82% -8%, #ded8ff66, transparent 62%),
+      radial-gradient(620px 460px at 10% 108%, #f7dcc966, transparent 60%),
+      var(--bg);
+    display:flex;flex-direction:column;overflow:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  body[data-mode="story"]{
+    background:
+      radial-gradient(720px 480px at 82% -8%, #fadfc966, transparent 62%),
+      radial-gradient(620px 460px at 10% 108%, #eee2ff55, transparent 60%),
+      var(--bg);
+  }
+
+  /* ───────────────────────────────────────────── header */
+  header{
+    flex-shrink:0;display:flex;align-items:center;gap:14px;
+    padding:16px 22px;
+  }
+  .brand{display:flex;align-items:center;gap:9px}
+  .brand svg{width:19px;height:19px;fill:var(--accent);transition:fill 260ms var(--ease-out)}
+  body[data-mode="story"] .brand svg{fill:var(--warm)}
+  .brand b{font-size:15.5px;letter-spacing:-.2px;font-weight:620}
+
+  /* segmented mode switch */
+  .switch{
+    position:relative;display:flex;margin-left:auto;
+    background:rgba(255,255,255,.7);border:1px solid var(--line);
+    border-radius:11px;padding:3px;box-shadow:var(--lift);
+    backdrop-filter:blur(12px);
+  }
+  .switch .thumb{
+    position:absolute;top:3px;left:3px;height:calc(100% - 6px);width:calc(50% - 3px);
+    background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(40,32,70,.1);
+    transition:transform 260ms var(--ease-out);
+  }
+  body[data-mode="story"] .switch .thumb{transform:translateX(100%)}
+  .switch button{
+    position:relative;z-index:1;border:none;background:none;cursor:pointer;
+    font:600 13px ui-sans-serif;color:var(--dim);padding:6px 15px;border-radius:8px;
+    transition:color 200ms var(--ease-out),transform 140ms var(--ease-out);
+  }
+  .switch button:active{transform:scale(.97)}
+  .switch button[aria-selected="true"]{color:var(--ink)}
+  .reset{
+    border:none;background:none;cursor:pointer;color:var(--dim);
+    font:500 13px ui-sans-serif;padding:6px 11px;border-radius:9px;
+    transition:color 180ms var(--ease-out),background 180ms var(--ease-out),transform 140ms var(--ease-out);
+  }
+  .reset:active{transform:scale(.97)}
+  @media (hover:hover) and (pointer:fine){
+    .reset:hover{color:var(--ink);background:rgba(255,255,255,.7)}
+  }
+
+  /* ───────────────────────────────────────────── thread */
+  main{flex:1;overflow-y:auto;scroll-behavior:smooth}
+  .col{max-width:660px;margin:0 auto;padding:0 22px}
+
+  .hero{padding-top:15vh;text-align:center}
+  .hero .mark{
+    width:52px;height:52px;margin:0 auto 18px;border-radius:16px;
+    background:var(--accent-soft);display:grid;place-items:center;
+    transition:background 260ms var(--ease-out);
+  }
+  body[data-mode="story"] .hero .mark{background:var(--warm-soft)}
+  .hero .mark svg{width:27px;height:27px;fill:var(--accent);transition:fill 260ms var(--ease-out)}
+  body[data-mode="story"] .hero .mark svg{fill:var(--warm)}
+  .hero h1{font-size:31px;letter-spacing:-.9px;font-weight:640}
+  .hero p{color:var(--dim);margin-top:6px;font-size:15px}
+
+  .chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:26px}
+  .chip{
+    border:1px solid var(--line);background:rgba(255,255,255,.72);
+    border-radius:999px;padding:8px 16px;cursor:pointer;color:var(--ink);
+    font:500 13.5px ui-sans-serif;box-shadow:var(--lift);
+    opacity:0;transform:translateY(7px);
+    animation:rise 340ms var(--ease-out) forwards;
+    transition:border-color 180ms var(--ease-out),transform 140ms var(--ease-out);
+  }
+  .chip:nth-child(1){animation-delay:40ms}
+  .chip:nth-child(2){animation-delay:85ms}
+  .chip:nth-child(3){animation-delay:130ms}
+  .chip:nth-child(4){animation-delay:175ms}
+  .chip:active{transform:scale(.97)}
+  @media (hover:hover) and (pointer:fine){
+    .chip:hover{border-color:#c9bfe9}
+  }
+  @keyframes rise{to{opacity:1;transform:translateY(0)}}
+
+  #thread{padding:34px 0 8px}
+  .turn{margin-bottom:24px}
+  .turn.me{display:flex;justify-content:flex-end}
+  .turn.me span{
+    background:var(--ink);color:#f8f6f4;border-radius:17px 17px 5px 17px;
+    padding:9px 15px;max-width:78%;font-size:15px;
+  }
+  .turn.ai{display:flex;gap:11px}
+  .turn.ai i{
+    flex-shrink:0;width:25px;height:25px;border-radius:8px;margin-top:1px;
+    background:var(--accent-soft);display:grid;place-items:center;
+  }
+  .turn.ai i svg{width:13px;height:13px;fill:var(--accent)}
+  body[data-mode="story"] .turn.ai i{background:var(--warm-soft)}
+  body[data-mode="story"] .turn.ai i svg{fill:var(--warm)}
+  .turn.ai .body{white-space:pre-wrap;padding-top:1px}
+  body[data-mode="story"] .turn.ai .body{font:17px/1.75 ui-serif,Georgia,serif}
+  .turn{
+    opacity:1;transform:translateY(0);
+    transition:opacity 240ms var(--ease-out),transform 240ms var(--ease-out);
+  }
+  @starting-style{ .turn{opacity:0;transform:translateY(7px)} }
+  .caret{
+    display:inline-block;width:7px;height:15px;border-radius:2px;
+    background:var(--accent);vertical-align:-3px;margin-left:1px;
+    animation:blink 1.05s steps(1) infinite;
+  }
+  body[data-mode="story"] .caret{background:var(--warm)}
+  @keyframes blink{50%{opacity:0}}
+
+  /* ───────────────────────────────────────────── composer */
+  footer{flex-shrink:0;padding:8px 22px 22px}
+  .bar{
+    max-width:660px;margin:0 auto;display:flex;align-items:flex-end;gap:10px;
+    background:rgba(255,255,255,.78);backdrop-filter:blur(16px);
+    border:1px solid var(--line);border-radius:19px;padding:11px 11px 11px 18px;
+    box-shadow:var(--lift);
+    transition:border-color 200ms var(--ease-out);
+  }
+  .bar:focus-within{border-color:#c9bfe9}
+  body[data-mode="story"] .bar:focus-within{border-color:#eec4a5}
+  textarea{
+    flex:1;border:none;outline:none;resize:none;background:none;
+    font:inherit;color:var(--ink);max-height:140px;padding:5px 0;
+  }
+  textarea::placeholder{color:#adaab6}
+  .send{
+    flex-shrink:0;width:34px;height:34px;border-radius:11px;border:none;cursor:pointer;
+    background:var(--accent);color:#fff;display:grid;place-items:center;
+    transition:background 260ms var(--ease-out),transform 140ms var(--ease-out),opacity 180ms var(--ease-out);
+  }
+  body[data-mode="story"] .send{background:var(--warm)}
+  .send:active{transform:scale(.94)}
+  .send:disabled{opacity:.35;cursor:default}
+  .send svg{width:15px;height:15px;fill:#fff}
+  .foot{
+    max-width:660px;margin:10px auto 0;text-align:center;
+    color:var(--dim);font-size:11.5px;
+  }
+  .foot .dot{
+    display:inline-block;width:6px;height:6px;border-radius:50%;
+    background:#cbc8d4;margin-right:5px;vertical-align:1px;
+    transition:background 300ms var(--ease-out);
+  }
+  .foot.live .dot{background:#3ec06d}
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation-duration:.01ms!important;transition-duration:.01ms!important}
+    .chip{opacity:1;transform:none}
+    main{scroll-behavior:auto}
+  }
+  @media (max-width:560px){ .hero{padding-top:9vh} .hero h1{font-size:26px} }
+</style>
+</head>
+<body data-mode="chat">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="mark" viewBox="0 0 512 512">
+    <path d="M198.626 28.424 8 484.424h114.376L256 164.779l133.624 319.645H504l-190.626-456z"/>
+    <path d="M312 346.039c0 30.928-25.072 56-56 56s-56-25.072-56-56 25.072-56 56-56 56 25.072 56 56"/>
+  </symbol>
+</defs></svg>
+
+<header>
+  <div class="brand"><svg><use href="#mark"/></svg><b>Aizen</b></div>
+  <button class="reset" id="reset" hidden>New</button>
+  <div class="switch" role="tablist">
+    <div class="thumb"></div>
+    <button role="tab" aria-selected="true" data-mode="chat">Chat</button>
+    <button role="tab" aria-selected="false" data-mode="story">Story</button>
+  </div>
+</header>
+
+<main id="scroller"><div class="col">
+  <div class="hero" id="hero">
+    <div class="mark"><svg><use href="#mark"/></svg></div>
+    <h1 id="title">Ask Aizen anything.</h1>
+    <p id="tagline">A 40M-parameter model, trained from scratch on this Mac.</p>
+    <div class="chips" id="chips"></div>
+  </div>
+  <div id="thread"></div>
+</div></main>
+
+<footer>
+  <div class="bar">
+    <textarea id="input" rows="1" placeholder="Ask a question…" autofocus></textarea>
+    <button class="send" id="send" aria-label="Send">
+      <svg viewBox="0 0 24 24"><path d="M12 4l7 7-1.4 1.4L13 7.8V20h-2V7.8l-4.6 4.6L5 11z"/></svg>
+    </button>
+  </div>
+  <div class="foot" id="foot"><span class="dot"></span><span id="footText">connecting…</span></div>
+</footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const scroller = $('#scroller'), thread = $('#thread'), hero = $('#hero'),
+      input = $('#input'), send = $('#send'), chips = $('#chips'), reset = $('#reset');
+
+const MODES = {
+  chat: {
+    title: 'Ask Aizen anything.',
+    tagline: 'A 40M-parameter model, trained from scratch on this Mac.',
+    placeholder: 'Ask a question…',
+    chips: ['What is 47 + 38?',
+            'If all fish live in water and Nemo is a fish, does Nemo live in water?',
+            "Kim has a red kite. Omar has a blue kite. What color is Omar's kite?",
+            'Answer in one word: what color is snow?'],
+  },
+  story: {
+    title: 'Tell me a story.',
+    tagline: 'The same model before task training — it only ever read short stories.',
+    placeholder: 'Start a story…',
+    chips: ['Once upon a time, there was a little dragon who was afraid of fire.',
+            'Lily and Tom found a door in the middle of the forest.',
+            'There was a boy who could talk to the rain.',
+            'Once upon a time, a robot found a flower in the snow.'],
+  },
+};
+
+let mode = 'chat';
+let history = { chat: [], story: [] };
+let busy = false;
+
+function paintMode() {
+  const m = MODES[mode];
+  document.body.dataset.mode = mode;
+  $('#title').textContent = m.title;
+  $('#tagline').textContent = m.tagline;
+  input.placeholder = m.placeholder;
+  chips.innerHTML = '';
+  m.chips.forEach(text => {
+    const b = document.createElement('button');
+    b.className = 'chip';
+    b.textContent = text.length > 46 ? text.slice(0, 44) + '…' : text;
+    b.onclick = () => ask(text);
+    chips.appendChild(b);
+  });
+  renderThread();
+}
+
+function renderThread() {
+  thread.innerHTML = '';
+  for (const t of history[mode]) addTurn(t.role, t.text);
+  hero.style.display = history[mode].length ? 'none' : '';
+  reset.hidden = !history[mode].length;
+}
+
+function addTurn(role, text) {
+  const d = document.createElement('div');
+  d.className = 'turn ' + (role === 'me' ? 'me' : 'ai');
+  if (role === 'me') {
+    d.innerHTML = '<span></span>';
+    d.querySelector('span').textContent = text;
+  } else {
+    d.innerHTML = '<i><svg><use href="#mark"/></svg></i><div class="body"></div>';
+    d.querySelector('.body').textContent = text;
+  }
+  thread.appendChild(d);
+  return d.querySelector(role === 'me' ? 'span' : '.body');
+}
+
+async function ask(text) {
+  if (busy) return;
+  busy = true; send.disabled = true;
+  hero.style.display = 'none'; reset.hidden = false;
+
+  history[mode].push({ role: 'me', text });
+  addTurn('me', text);
+  const body = addTurn('ai', '');
+  const caret = () => body.appendChild(
+    Object.assign(document.createElement('span'), { className: 'caret' }));
+  caret();
+  scroller.scrollTop = scroller.scrollHeight;
+
+  const isStory = mode === 'story';
+  let out = isStory ? text : '';
+  if (isStory) { body.textContent = out; caret(); }
+
+  try {
+    const prior = history.chat.filter(t => t.role !== 'sys');
+    const pairs = [];
+    for (let i = 0; i + 1 < prior.length - 1; i++)
+      if (prior[i].role === 'me' && prior[i + 1].role === 'ai')
+        pairs.push([prior[i].text, prior[i + 1].text]);
+
+    const res = await fetch(isStory ? '/story' : '/chat', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(isStory
+        ? { prompt: text, tokens: 220, temperature: .85 }
+        : { question: text, history: pairs.slice(-6) }),
+    });
+    const rd = res.body.getReader(), dec = new TextDecoder();
+    while (true) {
+      const { done, value } = await rd.read();
+      if (done) break;
+      out += dec.decode(value, { stream: true });
+      body.textContent = out;
+      caret();
+      scroller.scrollTop = scroller.scrollHeight;
+    }
+    body.textContent = out.trim() || '…';
+  } catch {
+    body.textContent = 'Could not reach Aizen. Is server.py running?';
+  }
+  history[mode].push({ role: 'ai', text: body.textContent });
+  busy = false; send.disabled = false; input.focus();
+}
+
+function submit() {
+  const t = input.value.trim();
+  if (!t || busy) return;
+  input.value = ''; input.style.height = 'auto';
+  ask(t);
+}
+send.onclick = submit;
+input.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); submit(); }
+});
+input.addEventListener('input', () => {
+  input.style.height = 'auto';
+  input.style.height = input.scrollHeight + 'px';
+});
+reset.onclick = () => { history[mode] = []; renderThread(); input.focus(); };
+document.querySelectorAll('.switch button').forEach(b => b.onclick = () => {
+  if (busy || b.dataset.mode === mode) return;
+  mode = b.dataset.mode;
+  document.querySelectorAll('.switch button')
+    .forEach(x => x.setAttribute('aria-selected', String(x.dataset.mode === mode)));
+  paintMode();
+  input.focus();
+});
+
+fetch('/meta').then(r => r.json()).then(m => {
+  $('#foot').classList.add('live');
+  $('#footText').textContent =
+    `${(m.params / 1e6).toFixed(1)}M parameters · running locally · built by Gyan`;
+  MODES.chat.tagline = `A ${(m.params / 1e6).toFixed(0)}M-parameter model, trained from scratch on this Mac.`;
+  if (mode === 'chat') $('#tagline').textContent = MODES.chat.tagline;
+}).catch(() => { $('#footText').textContent = 'model offline — start server.py'; });
+
+paintMode();
+</script>
+</body>
+</html>

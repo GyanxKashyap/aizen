@@ -1,0 +1,3619 @@
+{
+  "checkpoint": "aizen_phase3b.pt",
+  "total": 400,
+  "correct": 115,
+  "overall_accuracy_pct": 28.75,
+  "category_accuracy_pct": {
+    "arithmetic": 86.0,
+    "multi_step_arithmetic": 44.0,
+    "logic": 10.0,
+    "patterns": 14.0,
+    "general_knowledge": 48.0,
+    "instruction_following": 12.0,
+    "reading_comprehension": 16.0,
+    "coding": 0.0
+  },
+  "unencodable": 0,
+  "results": [
+    {
+      "id": "arithmetic_001",
+      "category": "arithmetic",
+      "question": "What is 63 + 26?",
+      "expected_answer": "89",
+      "model_answer": "63 + 26 = 99",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_002",
+      "category": "arithmetic",
+      "question": "53-15",
+      "expected_answer": "38",
+      "model_answer": "53 - 15 = 38",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_003",
+      "category": "arithmetic",
+      "question": "How much is 95 + 90?",
+      "expected_answer": "185",
+      "model_answer": "It is 185.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_004",
+      "category": "arithmetic",
+      "question": "What is 76 - 43?",
+      "expected_answer": "33",
+      "model_answer": "76 - 43 = 33",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_005",
+      "category": "arithmetic",
+      "question": "44+66",
+      "expected_answer": "110",
+      "model_answer": "44 + 66 = 110",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_006",
+      "category": "arithmetic",
+      "question": "How much is 71 - 32?",
+      "expected_answer": "39",
+      "model_answer": "71 - 32 = 39. The answer is 39.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_007",
+      "category": "arithmetic",
+      "question": "What is 31 + 88?",
+      "expected_answer": "119",
+      "model_answer": "31 + 88 = 119",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_008",
+      "category": "arithmetic",
+      "question": "71-35",
+      "expected_answer": "36",
+      "model_answer": "71 - 35 = 36",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_009",
+      "category": "arithmetic",
+      "question": "How much is 20 + 22?",
+      "expected_answer": "42",
+      "model_answer": "It is 42.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_010",
+      "category": "arithmetic",
+      "question": "What is 58 - 55?",
+      "expected_answer": "3",
+      "model_answer": "58 - 55 = 1",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_011",
+      "category": "arithmetic",
+      "question": "73+38",
+      "expected_answer": "111",
+      "model_answer": "73 + 38 = 111",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_012",
+      "category": "arithmetic",
+      "question": "How much is 67 - 53?",
+      "expected_answer": "14",
+      "model_answer": "67 - 53 = 14. The answer is 14.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_013",
+      "category": "arithmetic",
+      "question": "What is 79 + 63?",
+      "expected_answer": "142",
+      "model_answer": "79 + 63 = 142",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_014",
+      "category": "arithmetic",
+      "question": "58-10",
+      "expected_answer": "48",
+      "model_answer": "58 - 10 = 48",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_015",
+      "category": "arithmetic",
+      "question": "How much is 78 + 37?",
+      "expected_answer": "115",
+      "model_answer": "It is 115.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_016",
+      "category": "arithmetic",
+      "question": "What is 55 - 31?",
+      "expected_answer": "24",
+      "model_answer": "55 - 31 = 24",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_017",
+      "category": "arithmetic",
+      "question": "74+58",
+      "expected_answer": "132",
+      "model_answer": "74 + 58 = 132",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_018",
+      "category": "arithmetic",
+      "question": "How much is 47 - 14?",
+      "expected_answer": "33",
+      "model_answer": "47 - 14 = 33. The answer is 33.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_019",
+      "category": "arithmetic",
+      "question": "What is 98 + 29?",
+      "expected_answer": "127",
+      "model_answer": "98 + 29 = 127",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_020",
+      "category": "arithmetic",
+      "question": "33-6",
+      "expected_answer": "27",
+      "model_answer": "33 - 6 = 27",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_021",
+      "category": "arithmetic",
+      "question": "How much is 26 + 36?",
+      "expected_answer": "62",
+      "model_answer": "It is 62.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_022",
+      "category": "arithmetic",
+      "question": "What is 44 - 31?",
+      "expected_answer": "13",
+      "model_answer": "44 - 31 = 13",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_023",
+      "category": "arithmetic",
+      "question": "98+55",
+      "expected_answer": "153",
+      "model_answer": "98 + 55 = 153",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_024",
+      "category": "arithmetic",
+      "question": "How much is 29 - 9?",
+      "expected_answer": "20",
+      "model_answer": "29 - 9 = 10. The answer is 10.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_025",
+      "category": "arithmetic",
+      "question": "What is 83 + 57?",
+      "expected_answer": "140",
+      "model_answer": "83 + 57 = 140",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_026",
+      "category": "arithmetic",
+      "question": "71-12",
+      "expected_answer": "59",
+      "model_answer": "71 - 12 = 59",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_027",
+      "category": "arithmetic",
+      "question": "How much is 61 + 17?",
+      "expected_answer": "78",
+      "model_answer": "It is 78.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_028",
+      "category": "arithmetic",
+      "question": "What is 49 - 49?",
+      "expected_answer": "0",
+      "model_answer": "49 - 49 = 9",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_029",
+      "category": "arithmetic",
+      "question": "26+12",
+      "expected_answer": "38",
+      "model_answer": "26 + 12 = 38",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_030",
+      "category": "arithmetic",
+      "question": "How much is 26 - 18?",
+      "expected_answer": "8",
+      "model_answer": "26 - 18 = 6. The answer is 6.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_031",
+      "category": "arithmetic",
+      "question": "What is 51 + 65?",
+      "expected_answer": "116",
+      "model_answer": "51 + 65 = 116",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_032",
+      "category": "arithmetic",
+      "question": "93-13",
+      "expected_answer": "80",
+      "model_answer": "93 - 13 = 70",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_033",
+      "category": "arithmetic",
+      "question": "How much is 41 + 38?",
+      "expected_answer": "79",
+      "model_answer": "It is 79.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_034",
+      "category": "arithmetic",
+      "question": "What is 83 - 56?",
+      "expected_answer": "27",
+      "model_answer": "83 - 56 = 27",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_035",
+      "category": "arithmetic",
+      "question": "15+29",
+      "expected_answer": "44",
+      "model_answer": "15 + 29 = 44",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_036",
+      "category": "arithmetic",
+      "question": "How much is 44 - 26?",
+      "expected_answer": "18",
+      "model_answer": "44 - 26 = 18. The answer is 18.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_037",
+      "category": "arithmetic",
+      "question": "What is 65 + 49?",
+      "expected_answer": "114",
+      "model_answer": "65 + 49 = 114",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_038",
+      "category": "arithmetic",
+      "question": "53-17",
+      "expected_answer": "36",
+      "model_answer": "53 - 17 = 36",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_039",
+      "category": "arithmetic",
+      "question": "How much is 21 + 91?",
+      "expected_answer": "112",
+      "model_answer": "It is 112.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_040",
+      "category": "arithmetic",
+      "question": "What is 96 - 34?",
+      "expected_answer": "62",
+      "model_answer": "96 - 34 = 62",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_041",
+      "category": "arithmetic",
+      "question": "82+48",
+      "expected_answer": "130",
+      "model_answer": "82 + 48 = 130",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_042",
+      "category": "arithmetic",
+      "question": "How much is 58 - 15?",
+      "expected_answer": "43",
+      "model_answer": "58 - 15 = 43. The answer is 43.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_043",
+      "category": "arithmetic",
+      "question": "What is 32 + 44?",
+      "expected_answer": "76",
+      "model_answer": "32 + 44 = 76",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_044",
+      "category": "arithmetic",
+      "question": "25-22",
+      "expected_answer": "3",
+      "model_answer": "25 - 22 = 3",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_045",
+      "category": "arithmetic",
+      "question": "How much is 44 + 77?",
+      "expected_answer": "121",
+      "model_answer": "It is 121.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_046",
+      "category": "arithmetic",
+      "question": "What is 40 - 28?",
+      "expected_answer": "12",
+      "model_answer": "40 - 28 = 12",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_047",
+      "category": "arithmetic",
+      "question": "69+38",
+      "expected_answer": "107",
+      "model_answer": "69 + 38 = 107",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_048",
+      "category": "arithmetic",
+      "question": "How much is 81 - 58?",
+      "expected_answer": "23",
+      "model_answer": "81 - 58 = 23. The answer is 23.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_049",
+      "category": "arithmetic",
+      "question": "What is 45 + 60?",
+      "expected_answer": "105",
+      "model_answer": "45 + 60 = 105",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "arithmetic_050",
+      "category": "arithmetic",
+      "question": "54-54",
+      "expected_answer": "0",
+      "model_answer": "54 - 54 = 9",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_001",
+      "category": "multi_step_arithmetic",
+      "question": "What is 12 + 18 + 29?",
+      "expected_answer": "59",
+      "model_answer": "First, 12 + 18 = 30. Then, 30 - 29 = 1. Then, 1 + 29 = 30. The answer is 30.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_002",
+      "category": "multi_step_arithmetic",
+      "question": "What is 11 + 39 - 15?",
+      "expected_answer": "35",
+      "model_answer": "First, 11 + 39 = 50. Then, 50 - 15 = 35. The answer is 35.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_003",
+      "category": "multi_step_arithmetic",
+      "question": "What is 7 * 7 + 9?",
+      "expected_answer": "58",
+      "model_answer": "First, 7 * 7 = 49. Then, 49 + 9 = 58. The answer is 58.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_004",
+      "category": "multi_step_arithmetic",
+      "question": "What is 21 + 14 + 26?",
+      "expected_answer": "61",
+      "model_answer": "First, 21 + 14 = 35. Then, 35 - 26 = 19. Then, 19 + 26 = 45. The answer is 45.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_005",
+      "category": "multi_step_arithmetic",
+      "question": "What is 24 + 39 - 53?",
+      "expected_answer": "10",
+      "model_answer": "First, 24 + 39 = 63. Then, 63 - 5 = 58. The answer is 58.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_006",
+      "category": "multi_step_arithmetic",
+      "question": "What is 3 * 4 + 10?",
+      "expected_answer": "22",
+      "model_answer": "First, 3 * 4 = 12. Then, 12 + 10 = 22. The answer is 22.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_007",
+      "category": "multi_step_arithmetic",
+      "question": "What is 15 + 16 + 16?",
+      "expected_answer": "47",
+      "model_answer": "First, 15 + 16 = 31. Then, 31 - 16 = 15. The answer is 15.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_008",
+      "category": "multi_step_arithmetic",
+      "question": "What is 30 + 37 - 59?",
+      "expected_answer": "8",
+      "model_answer": "First, 30 + 37 = 67. Then, 67 - 5 = 62. The answer is 62.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_009",
+      "category": "multi_step_arithmetic",
+      "question": "What is 3 * 6 + 3?",
+      "expected_answer": "21",
+      "model_answer": "First, 3 * 6 = 18. Then, 18 + 3 = 21. The answer is 21.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_010",
+      "category": "multi_step_arithmetic",
+      "question": "What is 21 + 28 + 6?",
+      "expected_answer": "55",
+      "model_answer": "First, 21 + 28 = 49. Then, 49 - 6 = 43. The answer is 43.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_011",
+      "category": "multi_step_arithmetic",
+      "question": "What is 41 + 36 - 65?",
+      "expected_answer": "12",
+      "model_answer": "First, 41 + 36 = 77. Then, 77 - 6 = 71. The answer is 71.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_012",
+      "category": "multi_step_arithmetic",
+      "question": "What is 6 * 2 + 12?",
+      "expected_answer": "24",
+      "model_answer": "First, 6 * 2 = 12. Then, 12 + 12 = 24. The answer is 24.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_013",
+      "category": "multi_step_arithmetic",
+      "question": "What is 20 + 4 + 29?",
+      "expected_answer": "53",
+      "model_answer": "First, 20 + 49 = 69. Then, 69 - 4 = 65. The answer is 65.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_014",
+      "category": "multi_step_arithmetic",
+      "question": "What is 18 + 33 - 51?",
+      "expected_answer": "0",
+      "model_answer": "First, 18 + 33 = 51. Then, 51 - 5 = 46. The answer is 46.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_015",
+      "category": "multi_step_arithmetic",
+      "question": "What is 9 * 5 + 20?",
+      "expected_answer": "65",
+      "model_answer": "First, 9 * 5 = 45. Then, 45 + 20 = 65. The answer is 65.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_016",
+      "category": "multi_step_arithmetic",
+      "question": "What is 15 + 9 + 29?",
+      "expected_answer": "53",
+      "model_answer": "15 + 99 = 114",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_017",
+      "category": "multi_step_arithmetic",
+      "question": "What is 36 + 41 - 16?",
+      "expected_answer": "61",
+      "model_answer": "First, 36 + 41 = 77. Then, 77 - 16 = 61. The answer is 61.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_018",
+      "category": "multi_step_arithmetic",
+      "question": "What is 3 * 6 + 1?",
+      "expected_answer": "19",
+      "model_answer": "First, 3 * 6 = 18. Then, 18 + 1 = 19. The answer is 19.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_019",
+      "category": "multi_step_arithmetic",
+      "question": "What is 10 + 18 + 13?",
+      "expected_answer": "41",
+      "model_answer": "First, 10 + 18 = 28. Then, 28 - 13 = 15. Then, 15 + 13 = 28. The answer is 28.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_020",
+      "category": "multi_step_arithmetic",
+      "question": "What is 36 + 27 - 46?",
+      "expected_answer": "17",
+      "model_answer": "First, 36 + 27 = 63. Then, 63 - 46 = 17. The answer is 17.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_021",
+      "category": "multi_step_arithmetic",
+      "question": "What is 6 * 7 + 17?",
+      "expected_answer": "59",
+      "model_answer": "First, 6 * 7 = 42. Then, 42 + 17 = 59. The answer is 59.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_022",
+      "category": "multi_step_arithmetic",
+      "question": "What is 16 + 27 + 7?",
+      "expected_answer": "50",
+      "model_answer": "First, 16 + 27 = 43. Then, 43 - 7 = 36. Then, 36 + 7 = 43. The answer is 43.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_023",
+      "category": "multi_step_arithmetic",
+      "question": "What is 44 + 38 - 13?",
+      "expected_answer": "69",
+      "model_answer": "First, 44 + 38 = 82. Then, 82 - 13 = 69. The answer is 69.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_024",
+      "category": "multi_step_arithmetic",
+      "question": "What is 2 * 8 + 1?",
+      "expected_answer": "17",
+      "model_answer": "First, 2 * 8 = 16. Then, 16 + 1 = 17. The answer is 17.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_025",
+      "category": "multi_step_arithmetic",
+      "question": "What is 3 + 23 + 20?",
+      "expected_answer": "46",
+      "model_answer": "First, 3 + 23 = 26. Then, 26 - 20 = 6. Then, 6 + 20 = 26. The answer is 26.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_026",
+      "category": "multi_step_arithmetic",
+      "question": "What is 12 + 41 - 46?",
+      "expected_answer": "7",
+      "model_answer": "First, 12 + 41 = 53. Then, 53 - 4 = 49. The answer is 49.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_027",
+      "category": "multi_step_arithmetic",
+      "question": "What is 5 * 7 + 8?",
+      "expected_answer": "43",
+      "model_answer": "First, 5 * 7 = 35. Then, 35 + 8 = 43. The answer is 43.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_028",
+      "category": "multi_step_arithmetic",
+      "question": "What is 6 + 26 + 14?",
+      "expected_answer": "46",
+      "model_answer": "First, 6 + 26 = 32. Then, 32 - 14 = 18. Then, 18 + 14 = 32. The answer is 32.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_029",
+      "category": "multi_step_arithmetic",
+      "question": "What is 14 + 25 - 3?",
+      "expected_answer": "36",
+      "model_answer": "First, 14 + 25 = 39. Then, 39 - 3 = 36. The answer is 36.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_030",
+      "category": "multi_step_arithmetic",
+      "question": "What is 4 * 7 + 14?",
+      "expected_answer": "42",
+      "model_answer": "First, 4 * 7 = 28. Then, 28 + 14 = 42. The answer is 42.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_031",
+      "category": "multi_step_arithmetic",
+      "question": "What is 9 + 29 + 17?",
+      "expected_answer": "55",
+      "model_answer": "First, 9 + 29 = 38. Then, 38 - 17 = 21. Then, 21 + 17 = 38. The answer is 38.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_032",
+      "category": "multi_step_arithmetic",
+      "question": "What is 30 + 42 - 11?",
+      "expected_answer": "61",
+      "model_answer": "First, 30 + 42 = 72. Then, 72 - 11 = 61. The answer is 61.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_033",
+      "category": "multi_step_arithmetic",
+      "question": "What is 6 * 9 + 8?",
+      "expected_answer": "62",
+      "model_answer": "First, 6 * 9 = 54. Then, 54 - 8 = 46. The answer is 46.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_034",
+      "category": "multi_step_arithmetic",
+      "question": "What is 17 + 14 + 2?",
+      "expected_answer": "33",
+      "model_answer": "First, 17 + 14 = 31. Then, 31 - 2 = 29. Then, 29 + 2 = 31. The answer is 31.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_035",
+      "category": "multi_step_arithmetic",
+      "question": "What is 16 + 19 - 23?",
+      "expected_answer": "12",
+      "model_answer": "First, 16 + 19 = 35. Then, 35 - 23 = 12. The answer is 12.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_036",
+      "category": "multi_step_arithmetic",
+      "question": "What is 7 * 6 + 9?",
+      "expected_answer": "51",
+      "model_answer": "First, 7 * 6 = 42. Then, 42 + 9 = 51. The answer is 51.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_037",
+      "category": "multi_step_arithmetic",
+      "question": "What is 21 + 28 + 4?",
+      "expected_answer": "53",
+      "model_answer": "First, 21 + 28 = 49. Then, 49 - 4 = 45. The answer is 45.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_038",
+      "category": "multi_step_arithmetic",
+      "question": "What is 12 + 33 - 12?",
+      "expected_answer": "33",
+      "model_answer": "First, 12 + 33 = 45. Then, 45 - 12 = 33. The answer is 33.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_039",
+      "category": "multi_step_arithmetic",
+      "question": "What is 7 * 8 + 6?",
+      "expected_answer": "62",
+      "model_answer": "First, 7 * 8 = 56. Then, 56 - 6 = 50. The answer is 50.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_040",
+      "category": "multi_step_arithmetic",
+      "question": "What is 11 + 25 + 1?",
+      "expected_answer": "37",
+      "model_answer": "First, 11 + 25 = 36. Then, 36 - 15 = 21. Then, 21 + 1 = 22. The answer is 22.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_041",
+      "category": "multi_step_arithmetic",
+      "question": "What is 16 + 36 - 16?",
+      "expected_answer": "36",
+      "model_answer": "First, 16 + 36 = 52. Then, 52 - 16 = 36. The answer is 36.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_042",
+      "category": "multi_step_arithmetic",
+      "question": "What is 5 * 9 + 9?",
+      "expected_answer": "54",
+      "model_answer": "First, 5 * 9 = 45. Then, 45 - 9 = 36. The answer is 36.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_043",
+      "category": "multi_step_arithmetic",
+      "question": "What is 3 + 16 + 23?",
+      "expected_answer": "42",
+      "model_answer": "First, 3 + 16 = 19. Then, 19 - 23 = 7. Then, 7 + 23 = 30. The answer is 30.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_044",
+      "category": "multi_step_arithmetic",
+      "question": "What is 13 + 19 - 5?",
+      "expected_answer": "27",
+      "model_answer": "First, 13 + 19 = 32. Then, 32 - 5 = 27. The answer is 27.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_045",
+      "category": "multi_step_arithmetic",
+      "question": "What is 9 * 4 + 2?",
+      "expected_answer": "38",
+      "model_answer": "First, 9 * 4 = 36. Then, 36 - 2 = 34. The answer is 34.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_046",
+      "category": "multi_step_arithmetic",
+      "question": "What is 27 + 19 + 14?",
+      "expected_answer": "60",
+      "model_answer": "First, 27 + 19 = 46. Then, 46 - 14 = 32. Then, 32 + 14 = 46. The answer is 46.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_047",
+      "category": "multi_step_arithmetic",
+      "question": "What is 13 + 45 - 54?",
+      "expected_answer": "4",
+      "model_answer": "First, 13 + 45 = 58. Then, 58 - 5 = 53. The answer is 53.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_048",
+      "category": "multi_step_arithmetic",
+      "question": "What is 8 * 3 + 1?",
+      "expected_answer": "25",
+      "model_answer": "First, 8 * 3 = 24. Then, 24 - 1 = 23. The answer is 23.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_049",
+      "category": "multi_step_arithmetic",
+      "question": "What is 15 + 28 + 18?",
+      "expected_answer": "61",
+      "model_answer": "First, 15 + 28 = 43. Then, 43 - 18 = 25. Then, 25 + 18 = 43. The answer is 43.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "multi_step_arithmetic_050",
+      "category": "multi_step_arithmetic",
+      "question": "What is 31 + 27 - 8?",
+      "expected_answer": "50",
+      "model_answer": "First, 31 + 27 = 58. Then, 58 - 8 = 50. The answer is 50.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "logic_001",
+      "category": "logic",
+      "question": "If all cats are animals and Kiki is a cat, is Kiki an animal? Answer yes or no.",
+      "expected_answer": "yes",
+      "model_answer": "Aiko is a chair, and chairs cannot talk. The answer is no.",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_002",
+      "category": "logic",
+      "question": "If all birds can fly and Pipo is a bird, can Pipo fly? Answer yes or no.",
+      "expected_answer": "yes",
+      "model_answer": "Pipa is a bird, and all birds have wings. The answer is yes.",
+      "correct": true,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_003",
+      "category": "logic",
+      "question": "If no fish can walk and Bubbles is a fish, can Bubbles walk? Answer yes or no.",
+      "expected_answer": "no",
+      "model_answer": "A black is a bird, and all birds have wings. The answer is yes.",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_004",
+      "category": "logic",
+      "question": "Is every square also a rectangle? Answer yes or no.",
+      "expected_answer": "yes",
+      "model_answer": "yes",
+      "correct": true,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_005",
+      "category": "logic",
+      "question": "Can a circle have corners? Answer yes or no.",
+      "expected_answer": "no",
+      "model_answer": "Chen is a chair, and chairs cannot talk. The answer is no.",
+      "correct": true,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_006",
+      "category": "logic",
+      "question": "If today is Monday, is tomorrow Wednesday? Answer yes or no.",
+      "expected_answer": "no",
+      "model_answer": "After Monday comes Tuesday. The answer is no.",
+      "correct": true,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_007",
+      "category": "logic",
+      "question": "If today is Friday, is tomorrow Saturday? Answer yes or no.",
+      "expected_answer": "yes",
+      "model_answer": "After Friday comes Saturday. The answer is no.",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_008",
+      "category": "logic",
+      "question": "Is five bigger than nine? Answer yes or no.",
+      "expected_answer": "no",
+      "model_answer": "Eight is 8 and eight is 8. The answer is yes.",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_009",
+      "category": "logic",
+      "question": "Is twelve bigger than seven? Answer yes or no.",
+      "expected_answer": "yes",
+      "model_answer": "Eight is 8 and seight is 8. The answer is yes.",
+      "correct": true,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_010",
+      "category": "logic",
+      "question": "If it rains, the road gets wet. It rains. Is the road wet? Answer yes or no.",
+      "expected_answer": "yes",
+      "model_answer": "After Tursday comes Friday. The answer is no.",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "logic_011",
+      "category": "logic",
+      "question": "Mia runs faster than Dan. Who is slower?",
+      "expected_answer": "Dan",
+      "model_answer": "Mira is faster, so Mira is slower. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_012",
+      "category": "logic",
+      "question": "Ana has 27 coins. Dan has 72 coins. Who has more coins?",
+      "expected_answer": "Dan",
+      "model_answer": "27 and 72 are compared, and Aiko has fewer. The answer is Aiko.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_013",
+      "category": "logic",
+      "question": "Dan is taller than Leo. Who is shorter?",
+      "expected_answer": "Leo",
+      "model_answer": "Lena is taller, so Lily is shorter. The answer is Lily.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_014",
+      "category": "logic",
+      "question": "Amy is older than Dan. Who is younger?",
+      "expected_answer": "Dan",
+      "model_answer": "Deven is o faster, so Devi is younger. The answer is yes.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_015",
+      "category": "logic",
+      "question": "Tom runs faster than Leo. Who is slower?",
+      "expected_answer": "Leo",
+      "model_answer": "Lena is faster, so Nils is slower. The answer is Nina.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_016",
+      "category": "logic",
+      "question": "Dan has 40 coins. Ana has 83 coins. Who has more coins?",
+      "expected_answer": "Ana",
+      "model_answer": "40 and 83 are compared, and Carl has more. The answer is Carl.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_017",
+      "category": "logic",
+      "question": "Tom is taller than Mia. Who is shorter?",
+      "expected_answer": "Mia",
+      "model_answer": "Tara is taller, so Mira is shorter. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_018",
+      "category": "logic",
+      "question": "Sam is older than Tom. Who is younger?",
+      "expected_answer": "Tom",
+      "model_answer": "Mona is older, so Mona is younger. The answer is Mona.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_019",
+      "category": "logic",
+      "question": "Tom runs faster than Dan. Who is slower?",
+      "expected_answer": "Dan",
+      "model_answer": "Omar is faster, so Omar is slower. The answer is Omar.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_020",
+      "category": "logic",
+      "question": "Tom has 8 coins. Ana has 67 coins. Who has more coins?",
+      "expected_answer": "Ana",
+      "model_answer": "8 and 6 are compared, and Zoe has more. The answer is Zoe.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_021",
+      "category": "logic",
+      "question": "Ben is taller than Tom. Who is shorter?",
+      "expected_answer": "Tom",
+      "model_answer": "The story says Bela is taller than Bela. The answer is Bela.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_022",
+      "category": "logic",
+      "question": "Amy is older than Ben. Who is younger?",
+      "expected_answer": "Ben",
+      "model_answer": "Iris older, so Bela is younger. The answer is Bela.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_023",
+      "category": "logic",
+      "question": "Ana runs faster than Sam. Who is slower?",
+      "expected_answer": "Sam",
+      "model_answer": "Omar is faster, so Pia is slower. The answer is Pia.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_024",
+      "category": "logic",
+      "question": "Sam has 45 coins. Ben has 75 coins. Who has more coins?",
+      "expected_answer": "Ben",
+      "model_answer": "45 is less than 75. The answer is Carl.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_025",
+      "category": "logic",
+      "question": "Leo is taller than Ben. Who is shorter?",
+      "expected_answer": "Ben",
+      "model_answer": "Lena is taller, so Lena is shorter. The answer is Lena.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_026",
+      "category": "logic",
+      "question": "Tom is older than Mia. Who is younger?",
+      "expected_answer": "Mia",
+      "model_answer": "Mira is older, so Mira is younger. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_027",
+      "category": "logic",
+      "question": "Ben runs faster than Ana. Who is slower?",
+      "expected_answer": "Ana",
+      "model_answer": "Bela is faster, so Bela is slower. The answer is Bela.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_028",
+      "category": "logic",
+      "question": "Tom has 19 coins. Amy has 65 coins. Who has more coins?",
+      "expected_answer": "Amy",
+      "model_answer": "19 and 65 are compared, and Carl has more. The answer is Carl.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_029",
+      "category": "logic",
+      "question": "Ana is taller than Mia. Who is shorter?",
+      "expected_answer": "Mia",
+      "model_answer": "The story says Mira is taller than Mira. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_030",
+      "category": "logic",
+      "question": "Leo is older than Dan. Who is younger?",
+      "expected_answer": "Dan",
+      "model_answer": "Lena is older, so Lena is younger. The answer is Lena.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_031",
+      "category": "logic",
+      "question": "Dan runs faster than Amy. Who is slower?",
+      "expected_answer": "Amy",
+      "model_answer": "Omar is faster, so Omar is slower. The answer is Omar.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_032",
+      "category": "logic",
+      "question": "Leo has 15 coins. Mia has 59 coins. Who has more coins?",
+      "expected_answer": "Mia",
+      "model_answer": "15 and 59 are compared, and Zane has more. The answer is Zane.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_033",
+      "category": "logic",
+      "question": "Tom is taller than Ana. Who is shorter?",
+      "expected_answer": "Ana",
+      "model_answer": "Tara is taller, so Noah is shorter. The answer is Noah.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_034",
+      "category": "logic",
+      "question": "Tom is older than Sam. Who is younger?",
+      "expected_answer": "Sam",
+      "model_answer": "The story says Sami owns the druck. The answer is Sami.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_035",
+      "category": "logic",
+      "question": "Mia runs faster than Ana. Who is slower?",
+      "expected_answer": "Ana",
+      "model_answer": "Mira is faster, so Mira is slower. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_036",
+      "category": "logic",
+      "question": "Ana has 29 coins. Ben has 92 coins. Who has more coins?",
+      "expected_answer": "Ben",
+      "model_answer": "29 and 92 are compared, and Bela has more. The answer is Bela.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_037",
+      "category": "logic",
+      "question": "Mia is taller than Leo. Who is shorter?",
+      "expected_answer": "Leo",
+      "model_answer": "Lena is taller, so Lena is shorter. The answer is Lena.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_038",
+      "category": "logic",
+      "question": "Dan is older than Amy. Who is younger?",
+      "expected_answer": "Amy",
+      "model_answer": "Devi is older, so Devi is younger. The answer is Devi.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_039",
+      "category": "logic",
+      "question": "Tom runs faster than Amy. Who is slower?",
+      "expected_answer": "Amy",
+      "model_answer": "Fourst, sto Fumi is stor, 4 + 4 = 48. Then, 48 - 4 = 44. The answer is 44.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_040",
+      "category": "logic",
+      "question": "Ana has 41 coins. Dan has 81 coins. Who has more coins?",
+      "expected_answer": "Dan",
+      "model_answer": "41 and 81 are compared, and Aiko has more. The answer is Aiko.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_041",
+      "category": "logic",
+      "question": "Sam is taller than Ana. Who is shorter?",
+      "expected_answer": "Ana",
+      "model_answer": "Sami is taller, so Pia is shorter. The answer is Pia.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_042",
+      "category": "logic",
+      "question": "Ana is older than Dan. Who is younger?",
+      "expected_answer": "Dan",
+      "model_answer": "A ko is older, so I only know what I was trained on. The answer is yes.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_043",
+      "category": "logic",
+      "question": "Dan runs faster than Leo. Who is slower?",
+      "expected_answer": "Leo",
+      "model_answer": "Zane is faster, so Emil is slower. The answer is Emil.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_044",
+      "category": "logic",
+      "question": "Tom has 30 coins. Ana has 70 coins. Who has more coins?",
+      "expected_answer": "Ana",
+      "model_answer": "30 and 70 are compared, and Aiko has more. The answer is Aiko.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_045",
+      "category": "logic",
+      "question": "Amy is taller than Ben. Who is shorter?",
+      "expected_answer": "Ben",
+      "model_answer": "Devi is taller, so Bela is younger. The answer is Bela.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_046",
+      "category": "logic",
+      "question": "Tom is older than Ana. Who is younger?",
+      "expected_answer": "Ana",
+      "model_answer": "The story says Tara is older than Hana. The answer is Tara.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_047",
+      "category": "logic",
+      "question": "Sam runs faster than Amy. Who is slower?",
+      "expected_answer": "Amy",
+      "model_answer": "Sami is faster, so Fumi is slower. The answer is Fumi.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_048",
+      "category": "logic",
+      "question": "Dan has 36 coins. Amy has 54 coins. Who has more coins?",
+      "expected_answer": "Amy",
+      "model_answer": "36 and 54 are compared, and Tara has more. The answer is Tara.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_049",
+      "category": "logic",
+      "question": "Sam is taller than Tom. Who is shorter?",
+      "expected_answer": "Tom",
+      "model_answer": "Tara is taller, so Emil is shorter. The answer is Emil.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "logic_050",
+      "category": "logic",
+      "question": "Ana is older than Amy. Who is younger?",
+      "expected_answer": "Amy",
+      "model_answer": "Aira is older, so Aiko is younger. The answer is Aiko.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_001",
+      "category": "patterns",
+      "question": "What number comes after this: 19, 22, 25, 28?",
+      "expected_answer": "31",
+      "model_answer": "The numbers go up by 3 each time. 28 + 3 = 31. The answer is 31.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_002",
+      "category": "patterns",
+      "question": "Continue the pattern: 6, 18, 54, 162, ?",
+      "expected_answer": "486",
+      "model_answer": "The numbers go up by 5 each time. 16 + 5 = 21. The answer is 21.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_003",
+      "category": "patterns",
+      "question": "What letter comes after this: b, c, d, e?",
+      "expected_answer": "f",
+      "model_answer": "The letters follow the alphabet. After comes w. The answer is w.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_004",
+      "category": "patterns",
+      "question": "Continue: 56, 54, 52, 50, ?",
+      "expected_answer": "48",
+      "model_answer": "The numbers go down by 2 each time. 50 - 2 = 48. The answer is 48.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_005",
+      "category": "patterns",
+      "question": "What number comes after this: 6, 9, 12, 15?",
+      "expected_answer": "18",
+      "model_answer": "The numbers go up by 8 each time. 15 + 8 = 23. The answer is 23.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_006",
+      "category": "patterns",
+      "question": "Continue the pattern: 3, 9, 27, 81, ?",
+      "expected_answer": "243",
+      "model_answer": "The numbers go up by 5 each time. 81 + 5 = 86. The answer is 86.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_007",
+      "category": "patterns",
+      "question": "What letter comes after this: k, l, m, n?",
+      "expected_answer": "o",
+      "model_answer": "The letters follow the alphabet. After comes f. The answer is f.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_008",
+      "category": "patterns",
+      "question": "Continue: 55, 50, 45, 40, ?",
+      "expected_answer": "35",
+      "model_answer": "The numbers go down by 5 each time. 40 - 5 = 35. The answer is 35.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_009",
+      "category": "patterns",
+      "question": "What number comes after this: 11, 16, 21, 26?",
+      "expected_answer": "31",
+      "model_answer": "The numbers go up by 9 each time. 26 + 9 = 35. The answer is 35.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_010",
+      "category": "patterns",
+      "question": "What letter comes after this: n, o, p, q?",
+      "expected_answer": "r",
+      "model_answer": "The letters follow the alphabet.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_011",
+      "category": "patterns",
+      "question": "Continue: 78, 75, 72, 69, ?",
+      "expected_answer": "66",
+      "model_answer": "The numbers go down by 8 each time. 69 - 8 = 61. The answer is 61.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_012",
+      "category": "patterns",
+      "question": "What number comes after this: 10, 12, 14, 16?",
+      "expected_answer": "18",
+      "model_answer": "The numbers go up by 3 each time. 16 + 3 = 19. The answer is 19.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_013",
+      "category": "patterns",
+      "question": "Continue the pattern: 1, 3, 9, 27, ?",
+      "expected_answer": "81",
+      "model_answer": "The numbers go up by 6 each time. 27 + 6 = 33. The answer is 33.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_014",
+      "category": "patterns",
+      "question": "What letter comes after this: j, k, l, m?",
+      "expected_answer": "n",
+      "model_answer": "The letters follow the alphabet. After j comes k. The answer is k.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_015",
+      "category": "patterns",
+      "question": "Continue: 92, 88, 84, 80, ?",
+      "expected_answer": "76",
+      "model_answer": "The numbers go down by 9 each time. 80 - 9 = 71. The answer is 71.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_016",
+      "category": "patterns",
+      "question": "What number comes after this: 18, 24, 30, 36?",
+      "expected_answer": "42",
+      "model_answer": "The numbers go up by 2 each time. 36 + 2 = 38. The answer is 38.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_017",
+      "category": "patterns",
+      "question": "Continue the pattern: 5, 10, 20, 40, ?",
+      "expected_answer": "80",
+      "model_answer": "The numbers go up by 4 each time. 40 + 4 = 44. The answer is 44.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_018",
+      "category": "patterns",
+      "question": "What letter comes after this: p, q, r, s?",
+      "expected_answer": "t",
+      "model_answer": "The list goes from cat to goat. The answer is 4.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_019",
+      "category": "patterns",
+      "question": "Continue: 75, 68, 61, 54, ?",
+      "expected_answer": "47",
+      "model_answer": "The numbers go down by 8 each time. 54 - 8 = 46. The answer is 46.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_020",
+      "category": "patterns",
+      "question": "What number comes after this: 8, 13, 18, 23?",
+      "expected_answer": "28",
+      "model_answer": "The numbers go up by 9 each time. 23 + 9 = 32. The answer is 32.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_021",
+      "category": "patterns",
+      "question": "What letter comes after this: r, s, t, u?",
+      "expected_answer": "v",
+      "model_answer": "The letters follow the alphabet. After comes mes w. The answer is w.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_022",
+      "category": "patterns",
+      "question": "Continue: 86, 77, 68, 59, ?",
+      "expected_answer": "50",
+      "model_answer": "The numbers go down by 9 each time. 59 - 9 = 50. The answer is 50.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_023",
+      "category": "patterns",
+      "question": "What number comes after this: 18, 21, 24, 27?",
+      "expected_answer": "30",
+      "model_answer": "The numbers go up by 4 each time. 27 + 4 = 31. The answer is 31.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_024",
+      "category": "patterns",
+      "question": "Continue the pattern: 5, 15, 45, 135, ?",
+      "expected_answer": "405",
+      "model_answer": "The numbers go up by 7 each time. 13 + 7 = 20. The answer is 20.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_025",
+      "category": "patterns",
+      "question": "What letter comes after this: o, p, q, r?",
+      "expected_answer": "s",
+      "model_answer": "The list goes from pig to cow. The answer is 6.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_026",
+      "category": "patterns",
+      "question": "Continue: 75, 67, 59, 51, ?",
+      "expected_answer": "43",
+      "model_answer": "The numbers go down by 5 each time. 51 - 5 = 46. The answer is 46.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_027",
+      "category": "patterns",
+      "question": "What number comes after this: 13, 20, 27, 34?",
+      "expected_answer": "41",
+      "model_answer": "The numbers go up by 8 each time. 34 + 8 = 42. The answer is 42.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_028",
+      "category": "patterns",
+      "question": "Continue the pattern: 12, 36, 108, 324, ?",
+      "expected_answer": "972",
+      "model_answer": "The numbers go down by 8 each time. 32 - 8 = 24. The answer is 24.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_029",
+      "category": "patterns",
+      "question": "What letter comes after this: u, v, w, x?",
+      "expected_answer": "y",
+      "model_answer": "The letters follow the alphabet. After f comes w. The answer is w.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_030",
+      "category": "patterns",
+      "question": "Continue: 54, 52, 50, 48, ?",
+      "expected_answer": "46",
+      "model_answer": "The numbers go down by 4 each time. 48 - 4 = 44. The answer is 44.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_031",
+      "category": "patterns",
+      "question": "What number comes after this: 20, 23, 26, 29?",
+      "expected_answer": "32",
+      "model_answer": "The numbers go up by 2 each time. 29 + 2 = 31. The answer is 31.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_032",
+      "category": "patterns",
+      "question": "Continue the pattern: 10, 20, 40, 80, ?",
+      "expected_answer": "160",
+      "model_answer": "The numbers go up by 7 each time. 80 + 7 = 87. The answer is 87.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_033",
+      "category": "patterns",
+      "question": "Continue: 91, 88, 85, 82, ?",
+      "expected_answer": "79",
+      "model_answer": "The numbers go down by 2 each time. 8 - 2 = 60. The answer is 60.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_034",
+      "category": "patterns",
+      "question": "What number comes after this: 13, 16, 19, 22?",
+      "expected_answer": "25",
+      "model_answer": "The numbers go up by 3 each time. 22 + 3 = 25. The answer is 25.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_035",
+      "category": "patterns",
+      "question": "Continue the pattern: 1, 2, 4, 8, ?",
+      "expected_answer": "16",
+      "model_answer": "The numbers go up by 8 each time. 8 + 8 = 16. The answer is 16.",
+      "correct": true,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_036",
+      "category": "patterns",
+      "question": "Continue: 50, 46, 42, 38, ?",
+      "expected_answer": "34",
+      "model_answer": "The numbers go down by 5 each time. 38 - 5 = 33. The answer is 33.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_037",
+      "category": "patterns",
+      "question": "What number comes after this: 1, 5, 9, 13?",
+      "expected_answer": "17",
+      "model_answer": "The numbers go up by 2 each time. 13 + 2 = 15. The answer is 15.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_038",
+      "category": "patterns",
+      "question": "Continue the pattern: 9, 18, 36, 72, ?",
+      "expected_answer": "144",
+      "model_answer": "The numbers go up by 8 each time. 72 + 8 = 70. The answer is 70.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_039",
+      "category": "patterns",
+      "question": "What letter comes after this: g, h, i, j?",
+      "expected_answer": "k",
+      "model_answer": "The list goes from hen to dog. The answer is 6.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_040",
+      "category": "patterns",
+      "question": "Continue: 69, 63, 57, 51, ?",
+      "expected_answer": "45",
+      "model_answer": "The numbers go down by 8 each time. 51 - 8 = 43. The answer is 43.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_041",
+      "category": "patterns",
+      "question": "What number comes after this: 16, 18, 20, 22?",
+      "expected_answer": "24",
+      "model_answer": "The numbers go up by 5 each time. 22 + 5 = 27. The answer is 27.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_042",
+      "category": "patterns",
+      "question": "Continue the pattern: 7, 14, 28, 56, ?",
+      "expected_answer": "112",
+      "model_answer": "The numbers go up by 7 each time. 56 + 7 = 63. The answer is 63.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_043",
+      "category": "patterns",
+      "question": "What letter comes after this: a, b, c, d?",
+      "expected_answer": "e",
+      "model_answer": "The list goes from cat to bear. The answer is 6.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_044",
+      "category": "patterns",
+      "question": "Continue: 76, 70, 64, 58, ?",
+      "expected_answer": "52",
+      "model_answer": "The numbers go down by 8 each time. 58 - 8 = 50. The answer is 50.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_045",
+      "category": "patterns",
+      "question": "What number comes after this: 14, 23, 32, 41?",
+      "expected_answer": "50",
+      "model_answer": "The numbers go down by 2 each time. 41 - 2 = 39. The answer is 39.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_046",
+      "category": "patterns",
+      "question": "What letter comes after this: q, r, s, t?",
+      "expected_answer": "u",
+      "model_answer": "The letters follow the alphabet. After comes r. The answer is 4.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_047",
+      "category": "patterns",
+      "question": "Continue: 70, 61, 52, 43, ?",
+      "expected_answer": "34",
+      "model_answer": "The numbers go down by 4 each time. 43 + 4 = 47. The answer is 47.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_048",
+      "category": "patterns",
+      "question": "What number comes after this: 20, 25, 30, 35?",
+      "expected_answer": "40",
+      "model_answer": "The numbers go up by 2 each time. 35 + 2 = 37. The answer is 37.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "patterns_049",
+      "category": "patterns",
+      "question": "What letter comes after this: s, t, u, v?",
+      "expected_answer": "w",
+      "model_answer": "The letters follow the alphabet. After comes w. The answer is w.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "patterns_050",
+      "category": "patterns",
+      "question": "Continue: 73, 71, 69, 67, ?",
+      "expected_answer": "65",
+      "model_answer": "The numbers go down by 3 each time. 67 - 3 = 64. The answer is 64.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "general_knowledge_001",
+      "category": "general_knowledge",
+      "question": "Which planet is the biggest one?",
+      "expected_answer": "Jupiter",
+      "model_answer": "The Pacific Ocean is the largest ocean.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_002",
+      "category": "general_knowledge",
+      "question": "Which planet is the smallest one?",
+      "expected_answer": "Mercury",
+      "model_answer": "Mercury is the smallest planet.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_003",
+      "category": "general_knowledge",
+      "question": "Which planet sits closest to the sun?",
+      "expected_answer": "Mercury",
+      "model_answer": "Mercury is the closest planet to the sun.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_004",
+      "category": "general_knowledge",
+      "question": "Which planet is known for being red?",
+      "expected_answer": "Mars",
+      "model_answer": "Bern is a red.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_005",
+      "category": "general_knowledge",
+      "question": "On which planet do humans live?",
+      "expected_answer": "Earth",
+      "model_answer": "A live ins a plant, and all plants need light. The answer is yes.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_006",
+      "category": "general_knowledge",
+      "question": "Name the star at the center of our solar system.",
+      "expected_answer": "sun",
+      "model_answer": "farmer, water, sock",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_007",
+      "category": "general_knowledge",
+      "question": "What orbits the Earth at night?",
+      "expected_answer": "moon",
+      "model_answer": "The sun lis a star at the center of our solar system.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_008",
+      "category": "general_knowledge",
+      "question": "How many days does a normal year have?",
+      "expected_answer": "365",
+      "model_answer": "A triangle has three sides.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_009",
+      "category": "general_knowledge",
+      "question": "How many days make one week?",
+      "expected_answer": "seven",
+      "model_answer": "There are seven days in a week.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_010",
+      "category": "general_knowledge",
+      "question": "How many hours make one day?",
+      "expected_answer": "24",
+      "model_answer": "There are 24 hours in a day.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_011",
+      "category": "general_knowledge",
+      "question": "How many minutes make one hour?",
+      "expected_answer": "60",
+      "model_answer": "There are 60 minutes in an hour.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_012",
+      "category": "general_knowledge",
+      "question": "How many months make one year?",
+      "expected_answer": "twelve",
+      "model_answer": "There are twelve months in a year.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_013",
+      "category": "general_knowledge",
+      "question": "Which ocean is the biggest?",
+      "expected_answer": "Pacific",
+      "model_answer": "A bija is the capital of begium.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_014",
+      "category": "general_knowledge",
+      "question": "Which river is often called the longest one?",
+      "expected_answer": "Nile",
+      "model_answer": "Jelane",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_015",
+      "category": "general_knowledge",
+      "question": "Which mountain is the highest?",
+      "expected_answer": "Everest",
+      "model_answer": "The sun looks yellow.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_016",
+      "category": "general_knowledge",
+      "question": "Which animal is the biggest of all?",
+      "expected_answer": "blue whale",
+      "model_answer": "The list goes from cow to bear. The answer is 3.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_017",
+      "category": "general_knowledge",
+      "question": "Which land animal runs the fastest?",
+      "expected_answer": "cheetah",
+      "model_answer": "The capital of France is Paris.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_018",
+      "category": "general_knowledge",
+      "question": "Which animal is called king of the jungle?",
+      "expected_answer": "lion",
+      "model_answer": "We live is of can manted he light reed ight planet.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_019",
+      "category": "general_knowledge",
+      "question": "What do bees produce?",
+      "expected_answer": "honey",
+      "model_answer": "Bees make honey.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_020",
+      "category": "general_knowledge",
+      "question": "What noise does a dog make?",
+      "expected_answer": "woof",
+      "model_answer": "A dog says woof.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_021",
+      "category": "general_knowledge",
+      "question": "What noise does a cat make?",
+      "expected_answer": "meow",
+      "model_answer": "A cat says meow.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_022",
+      "category": "general_knowledge",
+      "question": "Tell me the color of the sky.",
+      "expected_answer": "blue",
+      "model_answer": "The sky is blue.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_023",
+      "category": "general_knowledge",
+      "question": "Tell me the color of grass.",
+      "expected_answer": "green",
+      "model_answer": "The sump is gras cow.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_024",
+      "category": "general_knowledge",
+      "question": "Tell me the color of snow.",
+      "expected_answer": "white",
+      "model_answer": "The story says Noah is taller than Noah. The answer is Noah.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_025",
+      "category": "general_knowledge",
+      "question": "Mixing blue and yellow gives which color?",
+      "expected_answer": "green",
+      "model_answer": "Beaj",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_026",
+      "category": "general_knowledge",
+      "question": "Mixing red and blue gives which color?",
+      "expected_answer": "purple",
+      "model_answer": "Beavi is nides. The answer is bes.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_027",
+      "category": "general_knowledge",
+      "question": "Which two elements make water?",
+      "expected_answer": "hydrogen and oxygen",
+      "model_answer": "6 times 12 is 72.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_028",
+      "category": "general_knowledge",
+      "question": "At what temperature in celsius does water boil?",
+      "expected_answer": "100",
+      "model_answer": "Water boils at 100 degrees Celsius.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_029",
+      "category": "general_knowledge",
+      "question": "At what temperature in celsius does water freeze?",
+      "expected_answer": "0",
+      "model_answer": "Water freezes at 0 degrees Celsius.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_030",
+      "category": "general_knowledge",
+      "question": "How many legs are on a spider?",
+      "expected_answer": "eight",
+      "model_answer": "There are seven days in a week.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_031",
+      "category": "general_knowledge",
+      "question": "How many legs are on an insect?",
+      "expected_answer": "six",
+      "model_answer": "There are seven continents.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_032",
+      "category": "general_knowledge",
+      "question": "How many continents does Earth have?",
+      "expected_answer": "seven",
+      "model_answer": "A square has four sides.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_033",
+      "category": "general_knowledge",
+      "question": "Which continent is the biggest?",
+      "expected_answer": "Asia",
+      "model_answer": "A bris heed is 8.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_034",
+      "category": "general_knowledge",
+      "question": "Which language do people speak in France?",
+      "expected_answer": "French",
+      "model_answer": "French is spoken in France.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_035",
+      "category": "general_knowledge",
+      "question": "Which language do people speak in Japan?",
+      "expected_answer": "Japanese",
+      "model_answer": "Japanese is spoken in Japan.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_036",
+      "category": "general_knowledge",
+      "question": "Who is the author of Romeo and Juliet?",
+      "expected_answer": "Shakespeare",
+      "model_answer": "William Shakespeare wrote Romeo and Juliet.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_037",
+      "category": "general_knowledge",
+      "question": "Who created the painting Mona Lisa?",
+      "expected_answer": "da Vinci",
+      "model_answer": "Leonardo da Vinci painted the Mona Lisa.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_038",
+      "category": "general_knowledge",
+      "question": "How many sides are on a triangle?",
+      "expected_answer": "three",
+      "model_answer": "There are seven continents.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_039",
+      "category": "general_knowledge",
+      "question": "How many sides are on a square?",
+      "expected_answer": "four",
+      "model_answer": "A square has four sides.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_040",
+      "category": "general_knowledge",
+      "question": "Name the city that is the capital of France.",
+      "expected_answer": "Paris",
+      "model_answer": "The capital of France is Paris.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_041",
+      "category": "general_knowledge",
+      "question": "Name the city that is the capital of Japan.",
+      "expected_answer": "Tokyo",
+      "model_answer": "The capital of Japan is Tokyo.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_042",
+      "category": "general_knowledge",
+      "question": "Name the city that is the capital of Italy.",
+      "expected_answer": "Rome",
+      "model_answer": "The capital of Italy is Rome.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_043",
+      "category": "general_knowledge",
+      "question": "Name the city that is the capital of Germany.",
+      "expected_answer": "Berlin",
+      "model_answer": "The capital of Germany is Berlin.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_044",
+      "category": "general_knowledge",
+      "question": "Name the city that is the capital of Spain.",
+      "expected_answer": "Madrid",
+      "model_answer": "The capital of Spain is Madrid.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_045",
+      "category": "general_knowledge",
+      "question": "Name the city that is the capital of India.",
+      "expected_answer": "New Delhi",
+      "model_answer": "The capital of India is New Delhi.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_046",
+      "category": "general_knowledge",
+      "question": "How many strings does a normal guitar have?",
+      "expected_answer": "six",
+      "model_answer": "A triangle has three sides.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_047",
+      "category": "general_knowledge",
+      "question": "What is the biggest desert called?",
+      "expected_answer": "Sahara",
+      "model_answer": "The blue whale is the largest animal.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_048",
+      "category": "general_knowledge",
+      "question": "How many players are on a football team on the field?",
+      "expected_answer": "eleven",
+      "model_answer": "The first letter is A.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_049",
+      "category": "general_knowledge",
+      "question": "Which season comes after summer?",
+      "expected_answer": "autumn",
+      "model_answer": "Asum ser somel Aighters.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "general_knowledge_050",
+      "category": "general_knowledge",
+      "question": "How many colors are in a rainbow?",
+      "expected_answer": "seven",
+      "model_answer": "There are seven continents.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_001",
+      "category": "instruction_following",
+      "question": "Answer in one word: what color is the sky?",
+      "expected_answer": "blue",
+      "model_answer": "black",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_002",
+      "category": "instruction_following",
+      "question": "Answer in one word: what color is grass?",
+      "expected_answer": "green",
+      "model_answer": "gras",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_003",
+      "category": "instruction_following",
+      "question": "Answer in one word: what do bees make?",
+      "expected_answer": "honey",
+      "model_answer": "kithe",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_004",
+      "category": "instruction_following",
+      "question": "Answer in one word: which planet do we live on?",
+      "expected_answer": "Earth",
+      "model_answer": "We live on Earth.",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_005",
+      "category": "instruction_following",
+      "question": "Answer in one word: what sound does a cat make?",
+      "expected_answer": "meow",
+      "model_answer": "espider",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_006",
+      "category": "instruction_following",
+      "question": "Answer in one word: what is the capital of France?",
+      "expected_answer": "Paris",
+      "model_answer": "Frinch",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_007",
+      "category": "instruction_following",
+      "question": "Answer in one word: what is the capital of Japan?",
+      "expected_answer": "Tokyo",
+      "model_answer": "The capital of Japan is Tokyo.",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_008",
+      "category": "instruction_following",
+      "question": "Answer in one word: what color is snow?",
+      "expected_answer": "white",
+      "model_answer": "sin ow",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_009",
+      "category": "instruction_following",
+      "question": "Answer in one word: what do cows drink?",
+      "expected_answer": "water",
+      "model_answer": "water",
+      "correct": true,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_010",
+      "category": "instruction_following",
+      "question": "Answer in one word: what is the largest planet?",
+      "expected_answer": "Jupiter",
+      "model_answer": "planet",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_011",
+      "category": "instruction_following",
+      "question": "Answer in one word: what is the red planet?",
+      "expected_answer": "Mars",
+      "model_answer": "Mirs is called the red planet.",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_012",
+      "category": "instruction_following",
+      "question": "Answer in one word: what is the fastest land animal?",
+      "expected_answer": "cheetah",
+      "model_answer": "sleep",
+      "correct": false,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_013",
+      "category": "instruction_following",
+      "question": "Answer in one word: what is the capital of Italy?",
+      "expected_answer": "Rome",
+      "model_answer": "Rome.",
+      "correct": true,
+      "evaluation_method": "one_word_correct"
+    },
+    {
+      "id": "instruction_following_014",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is the sky blue?",
+      "expected_answer": "yes",
+      "model_answer": "no",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_015",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is snow black?",
+      "expected_answer": "no",
+      "model_answer": "A spider",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_016",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is grass green?",
+      "expected_answer": "yes",
+      "model_answer": "Gyen is spoken in Germany.",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_017",
+      "category": "instruction_following",
+      "question": "Answer yes or no: do spiders have eight legs?",
+      "expected_answer": "yes",
+      "model_answer": "A sider, seale is a spider, and all spiders spin webs. The answer is yes.",
+      "correct": true,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_018",
+      "category": "instruction_following",
+      "question": "Answer yes or no: do dogs say meow?",
+      "expected_answer": "no",
+      "model_answer": "A spoon",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_019",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is the sun a star?",
+      "expected_answer": "yes",
+      "model_answer": "The sun is a star at the center of our solar system.",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_020",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is 10 bigger than 5?",
+      "expected_answer": "yes",
+      "model_answer": "no",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_021",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is 3 bigger than 8?",
+      "expected_answer": "no",
+      "model_answer": "8",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_022",
+      "category": "instruction_following",
+      "question": "Answer yes or no: does a week have seven days?",
+      "expected_answer": "yes",
+      "model_answer": "A egas",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_023",
+      "category": "instruction_following",
+      "question": "Answer yes or no: does a triangle have four sides?",
+      "expected_answer": "no",
+      "model_answer": "nots",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_024",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is water made of hydrogen and gold?",
+      "expected_answer": "no",
+      "model_answer": "5",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_025",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is Paris the capital of France?",
+      "expected_answer": "yes",
+      "model_answer": "Paris.",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_026",
+      "category": "instruction_following",
+      "question": "Answer yes or no: is Tokyo the capital of Spain?",
+      "expected_answer": "no",
+      "model_answer": "Madrid",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "instruction_following_027",
+      "category": "instruction_following",
+      "question": "Say the word hello.",
+      "expected_answer": "hello",
+      "model_answer": "hillow",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_028",
+      "category": "instruction_following",
+      "question": "Say the word apple.",
+      "expected_answer": "apple",
+      "model_answer": "peac",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_029",
+      "category": "instruction_following",
+      "question": "Repeat this word: banana",
+      "expected_answer": "banana",
+      "model_answer": "banana",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_030",
+      "category": "instruction_following",
+      "question": "Repeat this word: ocean",
+      "expected_answer": "ocean",
+      "model_answer": "carrow",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_031",
+      "category": "instruction_following",
+      "question": "Say the word blue.",
+      "expected_answer": "blue",
+      "model_answer": "blue",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_032",
+      "category": "instruction_following",
+      "question": "Repeat this word: seven",
+      "expected_answer": "seven",
+      "model_answer": "smeen",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_033",
+      "category": "instruction_following",
+      "question": "Say the word cat.",
+      "expected_answer": "cat",
+      "model_answer": "carpet",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_034",
+      "category": "instruction_following",
+      "question": "Repeat this word: morning",
+      "expected_answer": "morning",
+      "model_answer": "monim",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_035",
+      "category": "instruction_following",
+      "question": "Say the word yes.",
+      "expected_answer": "yes",
+      "model_answer": "yey",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_036",
+      "category": "instruction_following",
+      "question": "Repeat this word: tiny",
+      "expected_answer": "tiny",
+      "model_answer": "yellow",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_037",
+      "category": "instruction_following",
+      "question": "Say the word sun.",
+      "expected_answer": "sun",
+      "model_answer": "sun",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_038",
+      "category": "instruction_following",
+      "question": "Repeat this word: happy",
+      "expected_answer": "happy",
+      "model_answer": "hammer",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "instruction_following_039",
+      "category": "instruction_following",
+      "question": "Name exactly three colors.",
+      "expected_answer": "any three items",
+      "model_answer": "the sky sold",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_040",
+      "category": "instruction_following",
+      "question": "Name exactly three animals.",
+      "expected_answer": "any three items",
+      "model_answer": "elm grane animal",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_041",
+      "category": "instruction_following",
+      "question": "Name exactly three countries.",
+      "expected_answer": "any three items",
+      "model_answer": "cury is the closest planet to the sun.",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_042",
+      "category": "instruction_following",
+      "question": "Name exactly three planets.",
+      "expected_answer": "any three items",
+      "model_answer": "carple",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_043",
+      "category": "instruction_following",
+      "question": "List exactly three fruits.",
+      "expected_answer": "any three items",
+      "model_answer": "true",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_044",
+      "category": "instruction_following",
+      "question": "List exactly three numbers.",
+      "expected_answer": "any three items",
+      "model_answer": "sungle, suplem",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_045",
+      "category": "instruction_following",
+      "question": "Name exactly three cities.",
+      "expected_answer": "any three items",
+      "model_answer": "cacity is the capital of colombia is Bogota.",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_046",
+      "category": "instruction_following",
+      "question": "List exactly three days of the week.",
+      "expected_answer": "any three items",
+      "model_answer": "false",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_047",
+      "category": "instruction_following",
+      "question": "Name exactly three body parts.",
+      "expected_answer": "any three items",
+      "model_answer": "bastall band",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_048",
+      "category": "instruction_following",
+      "question": "List exactly three things that are blue.",
+      "expected_answer": "any three items",
+      "model_answer": "brush",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_049",
+      "category": "instruction_following",
+      "question": "Name exactly three sports.",
+      "expected_answer": "any three items",
+      "model_answer": "spider",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "instruction_following_050",
+      "category": "instruction_following",
+      "question": "List exactly three shapes.",
+      "expected_answer": "any three items",
+      "model_answer": "shap",
+      "correct": false,
+      "evaluation_method": "three_items"
+    },
+    {
+      "id": "reading_comprehension_001",
+      "category": "reading_comprehension",
+      "question": "Amy has a blue car. Ben has a green car. What color is Ben's car?",
+      "expected_answer": "green",
+      "model_answer": "The story says Bela has a brd car. The answer is brown.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_002",
+      "category": "reading_comprehension",
+      "question": "Tom has a white car. Leo has a green car. What color is Tom's car?",
+      "expected_answer": "white",
+      "model_answer": "The story says Tara has a gray coat. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_003",
+      "category": "reading_comprehension",
+      "question": "Ana has a green hat. Sam has a red hat. What color is Ana's hat?",
+      "expected_answer": "green",
+      "model_answer": "The story says Asha has a gray hat. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_004",
+      "category": "reading_comprehension",
+      "question": "Sam has a green cup. Amy has a white cup. What color is Amy's cup?",
+      "expected_answer": "white",
+      "model_answer": "The story says Aiko has a gray coat. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_005",
+      "category": "reading_comprehension",
+      "question": "Mia has a blue hat. Dan has a red hat. What color is Mia's hat?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Mira has a gold bag. The answer is gold.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_006",
+      "category": "reading_comprehension",
+      "question": "Ben has a blue bag. Mia has a red bag. What color is Ben's bag?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Bela has a brown bag. The answer is brown.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_007",
+      "category": "reading_comprehension",
+      "question": "Leo has a red ball. Amy has a white ball. What color is Leo's ball?",
+      "expected_answer": "red",
+      "model_answer": "The story says Lena has a black druck. The answer is black.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_008",
+      "category": "reading_comprehension",
+      "question": "Tom has a white hat. Sam has a blue hat. What color is Tom's hat?",
+      "expected_answer": "white",
+      "model_answer": "The story says Tara has a blue hat. The answer is blue.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_009",
+      "category": "reading_comprehension",
+      "question": "Tom has a green hat. Mia has a white hat. What color is Tom's hat?",
+      "expected_answer": "green",
+      "model_answer": "The story says Mira has a gray hat. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_010",
+      "category": "reading_comprehension",
+      "question": "Ben has a red cup. Dan has a green cup. What color is Ben's cup?",
+      "expected_answer": "red",
+      "model_answer": "The story says Bela has a gray desk. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_011",
+      "category": "reading_comprehension",
+      "question": "Amy has a blue bag. Dan has a green bag. What color is Dan's bag?",
+      "expected_answer": "green",
+      "model_answer": "The story says Devi has a black bag. The answer is black.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_012",
+      "category": "reading_comprehension",
+      "question": "Mia has a blue ball. Dan has a white ball. What color is Mia's ball?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Mira has a blue ball. The answer is blue.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_013",
+      "category": "reading_comprehension",
+      "question": "Mia has a green car. Leo has a blue car. What color is Leo's car?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Lena has a gray cup. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_014",
+      "category": "reading_comprehension",
+      "question": "Ben has a green bag. Leo has a blue bag. What color is Leo's bag?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Lena has a green bag. The answer is green.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_015",
+      "category": "reading_comprehension",
+      "question": "Ben has a white hat. Mia has a blue hat. What color is Mia's hat?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Mira has a white cat. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_016",
+      "category": "reading_comprehension",
+      "question": "Sam has a white cup. Mia has a green cup. What color is Mia's cup?",
+      "expected_answer": "green",
+      "model_answer": "The story says Mira has a gray cup. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_017",
+      "category": "reading_comprehension",
+      "question": "Dan has a blue car. Ben has a green car. What color is Dan's car?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Carl has a black bag. The answer is black.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_018",
+      "category": "reading_comprehension",
+      "question": "Ana has a blue hat. Amy has a red hat. What color is Ana's hat?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Asha has a yellow hat. The answer is yellow.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_019",
+      "category": "reading_comprehension",
+      "question": "Ana has a red bag. Amy has a green bag. What color is Ana's bag?",
+      "expected_answer": "red",
+      "model_answer": "The story says Asha has a gray bag. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_020",
+      "category": "reading_comprehension",
+      "question": "Leo has a green car. Ben has a white car. What color is Leo's car?",
+      "expected_answer": "green",
+      "model_answer": "The story says Mona has a green cat. The answer is green.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_021",
+      "category": "reading_comprehension",
+      "question": "Ben has a red bag. Mia has a blue bag. What color is Ben's bag?",
+      "expected_answer": "red",
+      "model_answer": "The story says Bela has a brown bag. The answer is brown.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_022",
+      "category": "reading_comprehension",
+      "question": "Mia has a blue cup. Ana has a white cup. What color is Mia's cup?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Mira has a white cup. The answer is white.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_023",
+      "category": "reading_comprehension",
+      "question": "Sam has a blue ball. Dan has a green ball. What color is Sam's ball?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Sami has a blue bag. The answer is blue.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_024",
+      "category": "reading_comprehension",
+      "question": "Leo has a blue bag. Sam has a red bag. What color is Leo's bag?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Mona has a brown bag. The answer is brown.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_025",
+      "category": "reading_comprehension",
+      "question": "Ben has a green ball. Ana has a white ball. What color is Ben's ball?",
+      "expected_answer": "green",
+      "model_answer": "The story says Bela has a gray ball. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_026",
+      "category": "reading_comprehension",
+      "question": "Leo has a red ball. Tom has a blue ball. What color is Tom's ball?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Tara has a black bag. The answer is black.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_027",
+      "category": "reading_comprehension",
+      "question": "Dan has a blue cup. Ana has a green cup. What color is Ana's cup?",
+      "expected_answer": "green",
+      "model_answer": "The story says Ana has a purple cup. The answer is purple.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_028",
+      "category": "reading_comprehension",
+      "question": "Amy has a red cup. Leo has a white cup. What color is Leo's cup?",
+      "expected_answer": "white",
+      "model_answer": "The story says Lena has a yellow cup. The answer is yellow.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_029",
+      "category": "reading_comprehension",
+      "question": "Mia has a green cup. Ben has a blue cup. What color is Ben's cup?",
+      "expected_answer": "blue",
+      "model_answer": "The story says Bela has a green cup. The answer is gray.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_030",
+      "category": "reading_comprehension",
+      "question": "Dan has a red cup. Mia has a blue cup. What color is Dan's cup?",
+      "expected_answer": "red",
+      "model_answer": "The story says Carl has a white duck. The answer is white.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_031",
+      "category": "reading_comprehension",
+      "question": "Sam has 12 coins. Mia has 19 coins. Who has more coins?",
+      "expected_answer": "Mia",
+      "model_answer": "12 and 19 are compared, and Mira has more. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_032",
+      "category": "reading_comprehension",
+      "question": "Ana has 9 pens. Leo has 20 pens. Who has more pens?",
+      "expected_answer": "Leo",
+      "model_answer": "9 and 20 are compared, and Lena has more. The answer is Lena.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_033",
+      "category": "reading_comprehension",
+      "question": "Leo has 4 books. Amy has 18 books. Who has more books?",
+      "expected_answer": "Amy",
+      "model_answer": "4 and 18 are compared, and Carl has more. The answer is Carl.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_034",
+      "category": "reading_comprehension",
+      "question": "Mia has 5 books. Ana has 20 books. Who has more books?",
+      "expected_answer": "Ana",
+      "model_answer": "5 and 20 are compared, and Bela has more. The answer is Bela.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_035",
+      "category": "reading_comprehension",
+      "question": "Ana has 18 apples. Sam has 1 apples. Who has more apples?",
+      "expected_answer": "Ana",
+      "model_answer": "18 and 1 are compared, and Asha has more. The answer is Asha.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_036",
+      "category": "reading_comprehension",
+      "question": "Mia has 2 apples. Ben has 9 apples. Who has more apples?",
+      "expected_answer": "Ben",
+      "model_answer": "2 and 9 are compared, and Lena has more. The answer is Lena.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_037",
+      "category": "reading_comprehension",
+      "question": "Mia has 9 pens. Leo has 11 pens. Who has more pens?",
+      "expected_answer": "Leo",
+      "model_answer": "9 and 11 are compared, and Mira has more. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_038",
+      "category": "reading_comprehension",
+      "question": "Sam has 3 pens. Mia has 13 pens. Who has more pens?",
+      "expected_answer": "Mia",
+      "model_answer": "3 and 13 are compared, and Mira has more. The answer is Mira.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_039",
+      "category": "reading_comprehension",
+      "question": "Ben has 18 pens. Dan has 11 pens. Who has more pens?",
+      "expected_answer": "Ben",
+      "model_answer": "18 and 11 are compared, and Mona has fewer. The answer is Mona.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_040",
+      "category": "reading_comprehension",
+      "question": "Leo has 2 coins. Tom has 4 coins. Who has more coins?",
+      "expected_answer": "Tom",
+      "model_answer": "2 and 4 are compared, and Lena has more. The answer is Lena.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_041",
+      "category": "reading_comprehension",
+      "question": "Sam owns a fish. Tom owns a dog. What pet does Tom own?",
+      "expected_answer": "dog",
+      "model_answer": "The story says Tara owns a lamb. The answer is lamb.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_042",
+      "category": "reading_comprehension",
+      "question": "Ben owns a bird. Tom owns a cat. What pet does Ben own?",
+      "expected_answer": "bird",
+      "model_answer": "The story says Bela owns a duck. The answer is duck.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_043",
+      "category": "reading_comprehension",
+      "question": "Ben owns a bird. Ana owns a cat. What pet does Ana own?",
+      "expected_answer": "cat",
+      "model_answer": "The story says Asha owns a cat. The answer is cat.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_044",
+      "category": "reading_comprehension",
+      "question": "Mia owns a cat. Dan owns a dog. What pet does Dan own?",
+      "expected_answer": "dog",
+      "model_answer": "The story says Devi owns a dog. The answer is dog.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_045",
+      "category": "reading_comprehension",
+      "question": "Mia owns a dog. Dan owns a bird. What pet does Mia own?",
+      "expected_answer": "dog",
+      "model_answer": "The story says Mira owns a dog. The answer is dog.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_046",
+      "category": "reading_comprehension",
+      "question": "Dan owns a fish. Mia owns a dog. What pet does Dan own?",
+      "expected_answer": "fish",
+      "model_answer": "The story says Devi owns a fish. The answer is fish.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_047",
+      "category": "reading_comprehension",
+      "question": "Tom owns a fish. Leo owns a cat. What pet does Tom own?",
+      "expected_answer": "fish",
+      "model_answer": "The story says Tara owns a cat. The answer is cat.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_048",
+      "category": "reading_comprehension",
+      "question": "Ben owns a fish. Dan owns a bird. What pet does Dan own?",
+      "expected_answer": "bird",
+      "model_answer": "The story says Devi owns a fish. The answer is fish.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_049",
+      "category": "reading_comprehension",
+      "question": "Dan owns a dog. Mia owns a bird. What pet does Dan own?",
+      "expected_answer": "dog",
+      "model_answer": "The story says Devi owns a bird. The answer is bird.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "reading_comprehension_050",
+      "category": "reading_comprehension",
+      "question": "Sam owns a cat. Dan owns a fish. What pet does Sam own?",
+      "expected_answer": "cat",
+      "model_answer": "The story says Sami owns a cat. The answer is cat.",
+      "correct": true,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_001",
+      "category": "coding",
+      "question": "In python, which keyword shows text on the screen?",
+      "expected_answer": "print",
+      "model_answer": "3",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_002",
+      "category": "coding",
+      "question": "In python, which keyword defines a function?",
+      "expected_answer": "def",
+      "model_answer": "First, 4 + 4 = 48. Then, 48 - 4 = 44. Then, 44 + 6 = 50. The answer is 50.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_003",
+      "category": "coding",
+      "question": "In python, which keyword creates a loop over a list?",
+      "expected_answer": "for",
+      "model_answer": "positive",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_004",
+      "category": "coding",
+      "question": "In python, which keyword makes a condition?",
+      "expected_answer": "if",
+      "model_answer": "6",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_005",
+      "category": "coding",
+      "question": "In python, which keyword returns a value from a function?",
+      "expected_answer": "return",
+      "model_answer": "3",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_006",
+      "category": "coding",
+      "question": "In python, which keyword imports a module?",
+      "expected_answer": "import",
+      "model_answer": "purple",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_007",
+      "category": "coding",
+      "question": "In python, which word means an empty value?",
+      "expected_answer": "None",
+      "model_answer": "purple",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_008",
+      "category": "coding",
+      "question": "In python, which keyword ends a loop early?",
+      "expected_answer": "break",
+      "model_answer": "plane",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_009",
+      "category": "coding",
+      "question": "In python, which keyword skips to the next loop step?",
+      "expected_answer": "continue",
+      "model_answer": "scitiple",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_010",
+      "category": "coding",
+      "question": "In python, which keyword defines a class?",
+      "expected_answer": "class",
+      "model_answer": "First, ist, water",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_011",
+      "category": "coding",
+      "question": "Which symbol adds two numbers in code?",
+      "expected_answer": "+",
+      "model_answer": "3",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_012",
+      "category": "coding",
+      "question": "Which symbol multiplies two numbers in code?",
+      "expected_answer": "*",
+      "model_answer": "4",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_013",
+      "category": "coding",
+      "question": "Which symbol checks equality in python?",
+      "expected_answer": "==",
+      "model_answer": "Beij is called the king of the jungle.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_014",
+      "category": "coding",
+      "question": "Which symbol assigns a value in python?",
+      "expected_answer": "=",
+      "model_answer": "Lenaron is spoken a MacBook.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_015",
+      "category": "coding",
+      "question": "What is the result of 2 ** 3 in python?",
+      "expected_answer": "8",
+      "model_answer": "The blue whale is the largest animal.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "coding_016",
+      "category": "coding",
+      "question": "What is the result of 10 - 3 in python?",
+      "expected_answer": "7",
+      "model_answer": "The story says Hana is older than Vik. The answer is Hana.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "coding_017",
+      "category": "coding",
+      "question": "What is the result of 7 * 2 in python?",
+      "expected_answer": "14",
+      "model_answer": "The sun looks yellow.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "coding_018",
+      "category": "coding",
+      "question": "What does 5 == 5 give in python?",
+      "expected_answer": "True",
+      "model_answer": "Genin is Germany is spoken in Germany.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_019",
+      "category": "coding",
+      "question": "What does 3 == 4 give in python?",
+      "expected_answer": "False",
+      "model_answer": "Geven is 4 and eight is 4. The answer is yes.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_020",
+      "category": "coding",
+      "question": "In python, what type is the value 5?",
+      "expected_answer": "int",
+      "model_answer": "18 times 5 is lest 63.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_021",
+      "category": "coding",
+      "question": "In python, what type is the value 5.0?",
+      "expected_answer": "float",
+      "model_answer": "First, 10 * 5 = 50. Then, 50 - 5 = 45. The answer is 45.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_022",
+      "category": "coding",
+      "question": "In python, what type is the value hello?",
+      "expected_answer": "string",
+      "model_answer": "Malsun is called the red planet.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_023",
+      "category": "coding",
+      "question": "In python, what type is the value True?",
+      "expected_answer": "bool",
+      "model_answer": "nut",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_024",
+      "category": "coding",
+      "question": "Which language is named after a snake?",
+      "expected_answer": "python",
+      "model_answer": "First, 1 * 1 = 1. Then, 1 + 1 = 1. The answer is 1.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_025",
+      "category": "coding",
+      "question": "Which language runs inside web browsers?",
+      "expected_answer": "javascript",
+      "model_answer": "A brib with 4 is   you?",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_026",
+      "category": "coding",
+      "question": "What does HTML build?",
+      "expected_answer": "web pages",
+      "model_answer": "nulip is the king of the jungle.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_027",
+      "category": "coding",
+      "question": "What does CSS control on a web page?",
+      "expected_answer": "style",
+      "model_answer": "Scorn",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_028",
+      "category": "coding",
+      "question": "In python, which function gives the length of a list?",
+      "expected_answer": "len",
+      "model_answer": "4",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_029",
+      "category": "coding",
+      "question": "In python, which function turns text into a number?",
+      "expected_answer": "int",
+      "model_answer": "5",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_030",
+      "category": "coding",
+      "question": "In python, which function asks the user to type something?",
+      "expected_answer": "input",
+      "model_answer": "6",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_031",
+      "category": "coding",
+      "question": "What is a bug in a program?",
+      "expected_answer": "an error",
+      "model_answer": "Geapan is a brown.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_032",
+      "category": "coding",
+      "question": "What does a loop do in a program?",
+      "expected_answer": "repeats",
+      "model_answer": "A dog says woof.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_033",
+      "category": "coding",
+      "question": "What does a variable store?",
+      "expected_answer": "a value",
+      "model_answer": "The sun lestar stempler than Moura.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_034",
+      "category": "coding",
+      "question": "What does a function do in code?",
+      "expected_answer": "runs a task",
+      "model_answer": "Andon",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_035",
+      "category": "coding",
+      "question": "In python, is indentation important? Answer yes or no.",
+      "expected_answer": "yes",
+      "model_answer": "Aftern",
+      "correct": false,
+      "evaluation_method": "yes_no"
+    },
+    {
+      "id": "coding_036",
+      "category": "coding",
+      "question": "In python, which word is used for true or false values?",
+      "expected_answer": "bool",
+      "model_answer": "pale",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_037",
+      "category": "coding",
+      "question": "Which symbol starts a comment in python?",
+      "expected_answer": "hash",
+      "model_answer": "Mona is the capital of Switzerland.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_038",
+      "category": "coding",
+      "question": "In python, what does the plus symbol do to two strings?",
+      "expected_answer": "joins them",
+      "model_answer": "A brown bown is    a bird.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_039",
+      "category": "coding",
+      "question": "What number does a python list start counting from?",
+      "expected_answer": "0",
+      "model_answer": "true",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "coding_040",
+      "category": "coding",
+      "question": "What is the result of 9 + 1 in python?",
+      "expected_answer": "10",
+      "model_answer": "The sun is a star at the center of our solar system.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "coding_041",
+      "category": "coding",
+      "question": "In python, which keyword handles errors with except?",
+      "expected_answer": "try",
+      "model_answer": "witer white white ourse, u. The answer is 2.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_042",
+      "category": "coding",
+      "question": "In python, which keyword goes with try to catch errors?",
+      "expected_answer": "e-cept",
+      "model_answer": "6",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_043",
+      "category": "coding",
+      "question": "In python, which keyword is the opposite of if?",
+      "expected_answer": "else",
+      "model_answer": "night",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_044",
+      "category": "coding",
+      "question": "Which company made the iPhone?",
+      "expected_answer": "Apple",
+      "model_answer": "Lima is the capital of Philippines.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_045",
+      "category": "coding",
+      "question": "What does AI stand for?",
+      "expected_answer": "artificial intelligence",
+      "model_answer": "The story says Asha is faster than Asha.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_046",
+      "category": "coding",
+      "question": "What does CPU stand for?",
+      "expected_answer": "central processing unit",
+      "model_answer": "Pipa is tawer.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_047",
+      "category": "coding",
+      "question": "What is the result of 100 - 1 in python?",
+      "expected_answer": "99",
+      "model_answer": "The sun is a star at the center of our solar system.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "coding_048",
+      "category": "coding",
+      "question": "What is the result of 6 * 6 in python?",
+      "expected_answer": "36",
+      "model_answer": "The Nile is often called the longest river.",
+      "correct": false,
+      "evaluation_method": "number"
+    },
+    {
+      "id": "coding_049",
+      "category": "coding",
+      "question": "In python, which loop runs while a condition is true?",
+      "expected_answer": "while",
+      "model_answer": "A rosin olip whater is our o.",
+      "correct": false,
+      "evaluation_method": "contains"
+    },
+    {
+      "id": "coding_050",
+      "category": "coding",
+      "question": "What do you call a saved program file for python?",
+      "expected_answer": "a python file",
+      "model_answer": "Buenos Aires.",
+      "correct": false,
+      "evaluation_method": "contains"
+    }
+  ]
+}

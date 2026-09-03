@@ -1,0 +1,26 @@
+# Virtualenv & caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# Model weights — far over GitHub's 100MB file limit.
+# Released separately; see README.
+*.pt
+checkpoints/
+
+# Large corpora — TinyStories is public and re-downloadable,
+# and the tokenized tensors are reproducible from prepare_pretrain.py
+data/tinystories_raw*.txt
+data/pretrain.txt
+data/pretrain2.txt
+data/pretrain_tokens*.pt
+
+# Third-party bAbI dump (fetch from HuggingFace via make_phase6_data.py)
+data/babi_train.jsonl
+data/babi_*.parquet
+
+# Knowledge-graph tooling output
+graphify-out/
+GYAN_OS_SPEC.md
