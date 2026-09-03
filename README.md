@@ -25,10 +25,24 @@ tokenization and method — the parameter count was raised exactly once.
 
 ## Quick start
 
+The trained weights are too large for git (175MB and 166MB, against GitHub's
+100MB limit), so they ship as release assets. Grab them into the repo root:
+
+```bash
+gh release download v6 --pattern '*.pt'
+```
+
+Or download `aizen_phase8.pt` and `aizen_phase8_pretrained.pt` by hand from
+the [releases page](../../releases/latest). Then:
+
 ```bash
 python3 -m venv .venv && .venv/bin/pip install torch flask
 .venv/bin/python server.py          # -> http://localhost:8321
 ```
+
+Everything except the weights is in this repository — if you would rather
+train your own instead of downloading mine, skip the release and follow
+[docs/phase8_scale.md](docs/phase8_scale.md).
 
 One server, two models, one page:
 
@@ -170,3 +184,9 @@ phase 8; finding it is written up in [docs/phase8_scale.md](docs/phase8_scale.md
 ---
 
 *Built by Gyan. Model, tokenizer, benchmark and interface all from scratch.*
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE).
