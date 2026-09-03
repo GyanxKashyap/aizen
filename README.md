@@ -25,8 +25,9 @@ tokenization and method — the parameter count was raised exactly once.
 
 ## Quick start
 
-The trained weights are too large for git (175MB and 166MB, against GitHub's
-100MB limit), so they ship as release assets. Grab them into the repo root:
+The trained weights are too large for git (174MB each, against GitHub's
+100MB per-file limit), so they ship as release assets. Grab them into the
+repo root:
 
 ```bash
 gh release download v6 --pattern '*.pt'
